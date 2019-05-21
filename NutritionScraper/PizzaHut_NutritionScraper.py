@@ -1,7 +1,6 @@
 """
 This file does the web scraping of food nutrition of Pizza Hut's menu items
 and stores it in a csv file
-
 @author: Ritika Prasad
 """
 from selenium import webdriver
@@ -49,10 +48,12 @@ with open('../NutritionData/PizzaHut_NutritionData.csv', 'a', newline="") as csv
 		
 		soup = BeautifulSoup(browser.page_source, 'html.parser')
 		
+		foodDict = {}
+
 		#product name
 		product = soup.find('div', attrs={'class':'name'})
 		if product != None:
-			product = product.text
+			foodDict["Item"] = product.text
 		else:
 			#nutrition content doesnt exist for this item => go to next item
 			#close tab and switch to main window
@@ -61,15 +62,14 @@ with open('../NutritionData/PizzaHut_NutritionData.csv', 'a', newline="") as csv
 			time.sleep(1)#wait for the page to load
 			count += 1
 			continue
-
+		
 		#serving size
 		servingSize = soup.find(itemprop="servingSize")
 		if servingSize != None:
-			servingSize = servingSize.text.split()[0]
+			foodDict["Serving Size"] = servingSize.text.split()[0]
 		else:
-			servingSize = "N/A"
+			foodDict["Serving Size"] = "N/A"
 
-		foodDict = {}
 		#fat content
 		fat = soup.find(itemprop="fatContent").text.split()
 		foodDict["Total Fat"] = fat[0] if(fat[0] != "<") else fat[1]
@@ -103,14 +103,10 @@ with open('../NutritionData/PizzaHut_NutritionData.csv', 'a', newline="") as csv
 
 		#write header
 		if(count == 0):
-			header = ["Item", "Serving Size"]
-			header.extend(list(foodDict.keys()))
-			writer.writerow(header)
+			writer.writerow(list(foodDict.keys()))
 		
 		#write product name and nutrition content values
-		rowEntry = [product, servingSize]
-		rowEntry.extend([value for key,value in foodDict.items()])
-		writer.writerow(rowEntry)
+		writer.writerow(list(foodDict.values()))
 
 		#close tab and switch to main window
 		browser.close()
