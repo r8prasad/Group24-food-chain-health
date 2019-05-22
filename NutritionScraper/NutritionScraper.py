@@ -14,7 +14,7 @@ import csv
 
 def nutrition_scraper(url, filename):
 	"""
-	This file does the web scraping of food nutrition of restaurant's menu items
+	This function does the web scraping of food nutrition of restaurant's menu items
 	available on https://m.nutritionix.com and stores it in a csv file
 	
 	:param: url - url of the website to extract data from
