@@ -41,7 +41,7 @@ def nutrition_scraper(url, filename):
 	#save the main window
 	main_window = browser.current_window_handle
 
-	with open(filename, 'a', newline="") as csv_file:
+	with open(filename, 'w+', newline="") as csv_file:
 		writer = csv.writer(csv_file)
 		count = 0
 		while count < itemCount:
