@@ -1,0 +1,727 @@
+,Item,Serving Size,Total Fat,Carbohydrates,Protein,Sugar,Fiber,Sodium,Cholesterol,Calories,Saturated Fat,Trans Fat,Price
+0,Cinnamon Raisin Bagel,,1g,67g,11g,13g,4g,510mg,0mg,320,0g,0g,0
+1,Everything Bagel,,3g,67g,12g,6g,5g,630mg,0mg,340,0.5g,0g,0
+2,Multigrain Bagel,,8g,63g,15g,8g,8g,550mg,0mg,380,1g,0g,0
+3,Plain Bagel,,1g,64g,11g,6g,4g,620mg,0mg,300,0g,0g,$0.89
+4,Sesame Seed Bagel,,5g,64g,12g,6g,5g,630mg,0mg,350,1g,0g,0
+5,White Cheddar Bagel Twist,,8g,64g,16g,6g,4g,760mg,20mg,390,4.5g,0g,0
+6,"Cold Brew Coffee, Large",,0g,3g,1g,0g,0g,15mg,0mg,20,0g,0g,0
+7,"Cold Brew Coffee, Medium",,0g,2g,1g,0g,0g,10mg,0mg,15,0g,0g,0
+8,"Cold Brew Coffee, Small",,0g,2g,1g,0g,0g,10mg,0mg,10,0g,0g,0
+9,"Cold Brew Coffee with Cream, Large",,12g,6g,3g,0g,0g,40mg,40mg,140,7g,0g,$3.99
+10,"Cold Brew Coffee with Cream, Medium",,9g,4g,2g,1g,0g,45mg,25mg,100,4.5g,0g,0
+11,"Cold Brew Coffee with Cream, Small",,6g,2g,1g,1g,0g,30mg,20mg,70,3g,0g,0
+12,"Cold Brew Coffee with Cream and Sugar, Large",,12g,40g,3g,36g,0g,60mg,35mg,270,6g,0g,0
+13,"Cold Brew Coffee with Cream and Sugar, Medium",,9g,30g,2g,27g,0g,45mg,25mg,200,4.5g,0g,0
+14,"Cold Brew Coffee with Cream and Sugar, Small",,6g,20g,1g,18g,0g,30mg,20mg,130,3g,0g,0
+15,Butter Packet,,4g,0g,0g,0g,0g,30mg,10mg,35,2.5g,0g,0
+16,Butter Spread with Canola Oil,,11g,0g,0g,0g,0g,85mg,15mg,100,4g,0g,0
+17,"Blue Raspberry Coolatta, Large",,0g,123g,0g,121g,0g,45mg,0mg,480,0g,0g,0
+18,"Blue Raspberry Coolatta, Medium",,0g,92g,0g,91g,0g,35mg,0mg,360,0g,0g,0
+19,"Blue Raspberry Coolatta, Small",,0g,62g,0g,61g,0g,25mg,0mg,240,0g,0g,0
+20,"Strawberry Fruit Coolatta, Large",,0g,148g,0g,144g,2g,20mg,0mg,590,0g,0g,0
+21,"Strawberry Fruit Coolatta, Medium",,0g,111g,0g,108g,1g,15mg,0mg,440,0g,0g,0
+22,"Strawberry Fruit Coolatta, Small",,0g,74g,0g,72g,1g,10mg,0mg,300,0g,0g,0
+23,"Vanilla Bean Coolatta, Large",,12g,184g,6g,175g,0g,310mg,40mg,840,6g,0g,$4.99
+24,"Vanilla Bean Coolatta, Medium",,9g,138g,4g,132g,0g,240mg,30mg,630,4.5g,0g,$3.99
+25,"Vanilla Bean Coolatta, Small",,6g,92g,3g,88g,0g,160mg,20mg,420,3g,0g,$2.99
+26,Classic Plain Cream Cheese Spread,,12g,3g,2g,3g,0g,200mg,40mg,120,8g,0g,$2.49
+27,Garden Veggie Cream Cheese Spread,,10g,3g,2g,1g,0g,200mg,35mg,100,6g,0g,$1.99
+28,Strawberry Cream Cheese Spread,,10g,9g,2g,8g,0g,100mg,30mg,130,6g,0g,0
+29,Egg & Cheese Wake-Up Wrap,,10g,14g,7g,1g,0g,470mg,95mg,180,4g,0g,$1.19
+30,"Ham, Egg & Cheese Wake-Up Wrap",,11g,15g,9g,1g,0g,600mg,100mg,190,4g,0g,0
+31,Turkey Sausage Wake Up Wrap,,14g,15g,13g,1g,0g,700mg,125mg,240,5g,0g,$1.39
+32,Veggie Egg White Wake-Up Wrap,,8g,15g,8g,1g,1g,510mg,20mg,160,4g,0g,$4.59
+33,Apple 'n Spice Donut,,14g,29g,3g,9g,1g,340mg,0mg,260,6g,0g,0
+34,Apple Crumb Donut,,15g,42g,3g,20g,1g,350mg,0mg,320,7g,0g,0
+35,Apple Fritter,,19g,58g,6g,24g,2g,380mg,0mg,420,8g,0g,0
+36,Apple Stick,,25g,44g,4g,20g,1g,390mg,30mg,420,11g,0g,0
+37,Apple Streusel Donut (Regional),,16g,45g,3g,22g,1g,350mg,0mg,340,7g,0g,0
+38,Bavarian Kreme Donut,,15g,30g,3g,11g,1g,370mg,0mg,270,7g,0g,0
+39,Bismark,,24g,65g,5g,40g,1g,380mg,0mg,490,11g,0g,0
+40,Boston Kreme Donut,,16g,37g,3g,17g,1g,390mg,0mg,300,7g,0g,0
+41,Bowtie Donut (Regional),,12g,38g,4g,16g,1g,270mg,0mg,270,4.5g,0g,0
+42,Butternut Donut,,20g,55g,4g,33g,1g,330mg,25mg,410,9g,0g,0
+43,Chocolate Butternut Donut,,20g,54g,4g,31g,2g,430mg,0mg,410,10g,0g,0
+44,Chocolate Coconut Donut (Regional),,21g,47g,4g,25g,2g,430mg,0mg,390,10g,0g,$2.49
+45,Chocolate Creme Donut,,19g,35g,4g,15g,1g,360mg,0mg,320,9g,0g,0
+46,Chocolate Creme Stick (Regional),,25g,59g,5g,33g,1g,360mg,0mg,480,11g,0g,$2.99
+47,Chocolate Dipped French Cruller,,14g,34g,3g,20g,0g,190mg,55mg,280,6g,0g,0
+48,Chocolate Frosted Cake Donut,,19g,40g,4g,20g,1g,340mg,25mg,350,9g,0g,0
+49,Chocolate Frosted Donut,,15g,31g,3g,13g,1g,340mg,0mg,280,7g,0g,0
+50,Chocolate Frosted with Sprinkles,,16g,34g,3g,14g,1g,340mg,0mg,290,7g,0g,0
+51,Chocolate Headlight Donut,,18g,39g,4g,19g,1g,370mg,0mg,330,8g,0g,0
+52,Chocolate Long John,,17g,42g,5g,16g,1g,320mg,0mg,340,7g,0g,0
+53,Cinnamon Donut,,19g,32g,4g,13g,1g,320mg,25mg,310,9g,0g,0
+54,Cinnamon Stick,,25g,35g,4g,13g,1g,370mg,30mg,380,11g,0g,0
+55,Coconut Donut,,20g,48g,4g,27g,1g,330mg,25mg,390,10g,0g,0
+56,Coffee Roll,,18g,51g,7g,17g,2g,410mg,0mg,390,7g,0g,$1.29
+57,Creme Delight Donut (Regional),,20g,43g,3g,24g,1g,370mg,0mg,360,9g,0g,0
+58,Donut Fries,,14g,22g,4g,5g,1g,220mg,20mg,240,8g,0g,$8.99
+59,Double Chocolate Donut,,20g,39g,4g,18g,2g,440mg,0mg,350,9g,0g,0
+60,Dulce de Leche Donut (Regional),,16g,35g,4g,13g,1g,350mg,0mg,300,7g,0g,0
+61,Eclair,,18g,51g,5g,23g,1g,390mg,0mg,380,7g,0g,0
+62,French Cruller,,13g,23g,3g,10g,0g,170mg,55mg,220,6g,0g,$1.29
+63,Frosted Vanilla Creme Donut,,20g,43g,3g,24g,1g,370mg,0mg,360,9g,0g,0
+64,Frosted with DD Sprinkles Donut,,16g,35g,3g,15g,1g,340mg,0mg,290,7g,0g,0
+65,Glazed Blueberry Donut,,16g,44g,4g,22g,1g,370mg,30mg,340,7g,0g,0
+66,Glazed Chocolate Donut,,19g,38g,3g,17g,1g,420mg,0mg,340,9g,0g,0
+67,Glazed Chocolate Stick,,25g,42g,4g,20g,2g,540mg,0mg,410,10g,0g,0
+68,Glazed Donut,,14g,30g,3g,12g,1g,330mg,0mg,260,6g,0g,0
+69,Glazed Jelly Donut,,14g,42g,3g,24g,1g,350mg,0mg,310,6g,0g,0
+70,Glazed Jelly Stick,,25g,61g,4g,39g,1g,420mg,30mg,490,11g,0g,0
+71,Glazed Lemon Donut (Regional),,14g,39g,3g,19g,1g,380mg,0mg,300,6g,0g,0
+72,Glazed Stick,,25g,43g,4g,21g,1g,370mg,30mg,410,11g,0g,0
+73,Glazed Strawberry Donut,,14g,43g,3g,23g,1g,350mg,0mg,310,6g,0g,0
+74,Guava Donut (Regional),,15g,30g,3g,11g,1g,350mg,0mg,270,7g,0g,$3.59
+75,Jelly Donut,,14g,34g,3g,16g,1g,350mg,0mg,280,6g,0g,$4.99
+76,Jelly Stick,,25g,52g,4g,32g,1g,410mg,30mg,450,11g,0g,0
+77,Lemon Donut,,15g,29g,3g,10g,1g,380mg,0mg,260,7g,0g,0
+78,Lemon Stick,,25g,45g,4g,21g,1g,450mg,30mg,420,11g,0g,0
+79,Maple Creme Donut,,19g,36g,3g,18g,1g,350mg,0mg,320,8g,0g,0
+80,Maple Creme Stick,,24g,60g,5g,35g,1g,350mg,0mg,480,11g,0g,0
+81,Maple Frosted Donut,,15g,32g,3g,14g,1g,340mg,0mg,280,7g,0g,0
+82,Maple Vanilla Creme Donut,,20g,43g,3g,25g,1g,360mg,0mg,360,9g,0g,0
+83,Marble Frosted Donut (Regional),,15g,35g,3g,16g,1g,340mg,0mg,290,7g,0g,0
+84,New Yorker Donut (Regional),,20g,43g,3g,24g,1g,370mg,0mg,360,9g,0g,0
+85,Old Fashioned Donut,,19g,28g,4g,10g,1g,320mg,25mg,290,8g,0g,0
+86,Oreo Donut,,24g,58g,4g,34g,2g,440mg,0mg,460,10g,0g,0
+87,Peanut Donut,,26g,48g,7g,26g,2g,330mg,25mg,450,10g,0g,0
+88,Plain Stick,,25g,31g,4g,10g,1g,370mg,30mg,370,11g,0g,0
+89,Powdered Donut,,19g,33g,4g,14g,1g,320mg,25mg,320,9g,0g,0
+90,Powdered Stick,,25g,37g,4g,15g,1g,370mg,30mg,390,11g,0g,0
+91,Pumpkin Donut,,19g,39g,3g,19g,1g,380mg,20mg,340,9g,0g,0
+92,Sour Cream Donut,,17g,47g,4g,26g,1g,330mg,10mg,350,7g,0g,0
+93,Spider Donut,,19g,42g,4g,19g,1g,430mg,0mg,350,8g,0g,0
+94,Strawberry Frosted Donut,,15g,32g,3g,14g,1g,340mg,0mg,280,7g,0g,0
+95,Strawberry Frosted with Sprinkles Donut,,16g,35g,3g,15g,1g,340mg,0mg,290,7g,0g,0
+96,Strawberry Long John,,17g,43g,5g,17g,1g,310mg,0mg,340,7g,0g,0
+97,Sugared Donut,,14g,22g,3g,4g,1g,330mg,0mg,230,6g,0g,0
+98,Sugared Stick,,25g,34g,4g,14g,1g,370mg,30mg,380,11g,0g,0
+99,Taillight Donut,,18g,39g,3g,20g,1g,360mg,0mg,340,8g,0g,0
+100,Toasted Coconut Donut,,23g,49g,4g,28g,2g,350mg,25mg,420,12g,0g,0
+101,Vanilla Creme Donut,,20g,35g,3g,17g,1g,350mg,0mg,330,9g,0g,0
+102,Vanilla Frosted Donut,,15g,32g,3g,14g,1g,340mg,0mg,280,7g,0g,0
+103,Vanilla Headlight Donut,,18g,39g,3g,20g,1g,360mg,0mg,330,8g,0g,0
+104,Vanilla Long John,,17g,43g,5g,17g,1g,310mg,0mg,340,7g,0g,0
+105,Blue Raspberry Dunkin' Energy Punch Powered by Monster Energy (Regional),,0g,95g,0g,94g,0g,410mg,0mg,390,0g,0g,0
+106,Strawberry Dunkin' Energy Punch Powered by Monster Energy (Regional),,0g,78g,0g,78g,0g,420mg,0mg,320,0g,0g,0
+107,"Caramel Swirl Frozen Chocolate, Large",,17g,182g,12g,170g,2g,340mg,30mg,920,12g,1g,0
+108,"Caramel Swirl Frozen Chocolate, Medium",,13g,137g,9g,127g,1g,250mg,25mg,700,9g,1g,0
+109,"Caramel Swirl Frozen Chocolate, Small",,10g,96g,6g,89g,1g,170mg,15mg,500,7g,1g,0
+110,"French Vanilla Swirl Frozen Chocolate, Large",,17g,181g,11g,168g,1g,360mg,30mg,920,12g,1g,0
+111,"French Vanilla Swirl Frozen Chocolate, Medium",,13g,136g,9g,126g,1g,270mg,25mg,700,9g,1g,0
+112,"French Vanilla Swirl Frozen Chocolate, Small",,10g,95g,6g,88g,1g,190mg,15mg,500,7g,1g,0
+113,"Frozen Chocolate, Large",,18g,183g,10g,166g,5g,330mg,25mg,930,13g,1g,0
+114,"Frozen Chocolate, Medium",,14g,138g,8g,125g,3g,250mg,20mg,700,10g,1g,0
+115,"Frozen Chocolate, Small",,11g,96g,6g,86g,2g,170mg,15mg,500,7g,1g,0
+116,"Hazelnut Swirl Frozen Chocolate, Large",,17g,182g,11g,168g,1g,360mg,30mg,920,12g,1g,0
+117,"Hazelnut Swirl Frozen Chocolate, Medium",,13g,137g,9g,126g,1g,270mg,25mg,700,9g,1g,0
+118,"Hazelnut Swirl Frozen Chocolate, Small",,10g,96g,6g,88g,1g,190mg,15mg,500,7g,1g,0
+119,"Maple Pecan Swirl Frozen Chocolate, Large",,17g,178g,11g,165g,1g,360mg,30mg,910,12g,1g,0
+120,"Maple Pecan Swirl Frozen Chocolate, Medium",,13g,137g,9g,127g,1g,270mg,25mg,700,9g,1g,0
+121,"Maple Pecan Swirl Frozen Chocolate, Small",,10g,96g,6g,89g,1g,190mg,15mg,500,7g,1g,0
+122,"Maple Pecan Swirl Frozen Coffee with Cream, Large",,39g,195g,10g,185g,1g,280mg,115mg,1170,21g,2g,0
+123,"Maple Pecan Swirl Frozen Coffee with Cream, Medium",,30g,150g,8g,142g,1g,210mg,90mg,900,16g,2g,0
+124,"Maple Pecan Swirl Frozen Coffee with Cream, Small",,21g,105g,6g,99g,0g,140mg,60mg,630,12g,1.5g,0
+125,"Maple Pecan Swirl Frozen Coffee with Milk, Large",,10g,199g,11g,189g,1g,220mg,30mg,940,6g,1g,0
+126,"Maple Pecan Swirl Frozen Coffee with Milk, Medium",,8g,153g,8g,145g,1g,170mg,20mg,720,5g,1g,0
+127,"Maple Pecan Swirl Frozen Coffee with Milk, Small",,7g,107g,6g,100g,0g,115mg,15mg,510,4.5g,1g,0
+128,"Maple Pecan Swirl Frozen Coffee with Skim Milk, Large",,4.5g,199g,11g,189g,1g,220mg,15mg,890,3g,1g,0
+129,"Maple Pecan Swirl Frozen Coffee with Skim Milk, Medium",,4g,153g,9g,145g,1g,170mg,10mg,690,2.5g,1g,0
+130,"Maple Pecan Swirl Frozen Coffee with Skim Milk, Small",,4g,107g,6g,101g,0g,115mg,10mg,490,2.5g,1g,0
+131,"Pumpkin Swirl Frozen Chocolate, Large",,17g,175g,12g,163g,1g,420mg,25mg,900,12g,1g,0
+132,"Pumpkin Swirl Frozen Chocolate, Medium",,13g,134g,9g,125g,1g,320mg,20mg,690,10g,1g,0
+133,"Pumpkin Swirl Frozen Chocolate, Small",,10g,95g,6g,88g,1g,210mg,15mg,500,7g,1g,0
+134,"Pumpkin Swirl Frozen Coffee with Cream, Large",,39g,192g,11g,183g,1g,330mg,115mg,1180,21g,2g,0
+135,"Pumpkin Swirl Frozen Coffee with Cream, Medium",,30g,147g,8g,140g,1g,250mg,85mg,890,16g,2g,0
+136,"Pumpkin Swirl Frozen Coffee with Cream, Small",,21g,103g,6g,98g,0g,170mg,60mg,630,12g,1.5g,0
+137,"Pumpkin Swirl Frozen Coffee with Milk, Large",,11g,196g,11g,187g,1g,280mg,25mg,930,6g,1g,0
+138,"Pumpkin Swirl Frozen Coffee with Milk, Medium",,9g,150g,9g,143g,1g,210mg,20mg,720,5g,1g,0
+139,"Pumpkin Swirl Frozen Coffee with Milk, Small",,7g,105g,6g,99g,0g,140mg,15mg,510,4.5g,1g,0
+140,"Pumpkin Swirl Frozen Coffee with Skim Milk, Large",,4.5g,196g,12g,187g,1g,280mg,10mg,880,3g,1g,0
+141,"Pumpkin Swirl Frozen Coffee with Skim Milk, Medium",,4g,150g,9g,143g,1g,210mg,10mg,680,2.5g,1g,0
+142,"Pumpkin Swirl Frozen Coffee with Skim Milk, Small",,4g,105g,6g,100g,0g,140mg,10mg,490,2.5g,1g,0
+143,"Caramel Swirl Frozen Coffee with Cream, Large",,39g,199g,11g,190g,1g,250mg,120mg,1180,21g,2g,0
+144,"Caramel Swirl Frozen Coffee with Cream, Medium",,30g,150g,8g,142g,1g,190mg,90mg,900,16g,2g,0
+145,"Caramel Swirl Frozen Coffee with Cream, Small",,21g,104g,6g,99g,1g,130mg,60mg,630,12g,1.5g,0
+146,"Caramel Swirl Frozen Coffee with Skim Milk, Large",,4.5g,203g,12g,194g,1g,200mg,15mg,900,3g,1g,0
+147,"Caramel Swirl Frozen Coffee with Skim Milk, Medium",,4g,153g,9g,145g,1g,150mg,10mg,680,2.5g,1g,0
+148,"Caramel Swirl Frozen Coffee with Skim Milk, Small",,4g,106g,6g,101g,1g,100mg,10mg,490,2.5g,1g,0
+149,"Caramel Swirl Frozen Coffee with Whole Milk, Large",,10g,202g,11g,193g,1g,200mg,30mg,950,6g,1g,0
+150,"Caramel Swirl Frozen Coffee with Whole Milk, Medium",,8g,152g,8g,145g,1g,150mg,25mg,720,5g,1g,0
+151,"Caramel Swirl Frozen Coffee with Whole Milk, Small",,7g,106g,6g,100g,1g,100mg,15mg,510,4.5g,1g,0
+152,"French Vanilla Swirl Frozen Coffee with Cream, Large",,39g,198g,11g,188g,1g,280mg,115mg,1180,21g,2g,0
+153,"French Vanilla Swirl Frozen Coffee with Cream, Medium",,30g,149g,8g,141g,1g,210mg,90mg,890,16g,2g,0
+154,"French Vanilla Swirl Frozen Coffee with Cream, Small",,21g,104g,6g,98g,0g,140mg,60mg,630,12g,2.5g,0
+155,"French Vanilla Swirl Frozen Coffee with Skim Milk, Large",,4.5g,202g,11g,192g,1g,220mg,15mg,900,3g,1g,0
+156,"French Vanilla Swirl Frozen Coffee with Skim Milk, Medium",,4g,152g,9g,144g,1g,170mg,10mg,680,2.5g,1g,0
+157,"French Vanilla Swirl Frozen Coffee with Skim Milk, Small",,4g,106g,6g,100g,0g,115mg,10mg,490,2.5g,1g,0
+158,"French Vanilla Swirl Frozen Coffee with Whole Milk, Large",,10g,202g,11g,192g,1g,230mg,30mg,950,6g,1g,0
+159,"French Vanilla Swirl Frozen Coffee with Whole Milk, Medium",,8g,152g,8g,144g,1g,170mg,20mg,720,5g,1g,0
+160,"French Vanilla Swirl Frozen Coffee with Whole Milk, Small",,7g,106g,6g,99g,0g,115mg,15mg,510,4.5g,1g,0
+161,"Frozen Coffee with Cream, Large",,35g,128g,6g,123g,1g,130mg,120mg,840,22g,1g,0
+162,"Frozen Coffee with Cream, Medium",,26g,96g,5g,92g,1g,95mg,90mg,630,16g,1g,0
+163,"Frozen Coffee with Cream, Small",,18g,64g,3g,61g,0g,65mg,60mg,420,11g,0.5g,0
+164,"Frozen Coffee with Skim Milk, Large",,0g,131g,8g,125g,1g,135mg,5mg,550,0g,0g,0
+165,"Frozen Coffee with Skim Milk, Medium",,0g,98g,6g,94g,1g,100mg,5mg,420,0g,0g,0
+166,"Frozen Coffee with Skim Milk, Small",,0g,65g,4g,63g,0g,65mg,0mg,280,0g,0g,0
+167,"Frozen Coffee with Whole Milk, Large",,6g,130g,7g,125g,1g,135mg,20mg,600,3.5g,0g,0
+168,"Frozen Coffee with Whole Milk, Medium",,4.5g,98g,5g,94g,1g,100mg,15mg,450,2.5g,0g,0
+169,"Frozen Coffee with Whole Milk, Small",,3g,65g,4g,63g,0g,70mg,10mg,300,1.5g,0g,0
+170,"Hazelnut Swirl Frozen Coffee with Cream, Large",,39g,199g,11g,188g,1g,280mg,115mg,1180,21g,2g,0
+171,"Hazelnut Swirl Frozen Coffee with Cream, Medium",,30g,150g,8g,141g,1g,210mg,90mg,900,16g,2g,0
+172,"Hazelnut Swirl Frozen Coffee with Cream, Small",,21g,104g,6g,98g,0g,140mg,60mg,630,12g,1.5g,0
+173,"Hazelnut Swirl Frozen Coffee with Skim Milk, Large",,7g,203g,11g,192g,1g,220mg,15mg,900,15g,1g,0
+174,"Hazelnut Swirl Frozen Coffee with Skim Milk, Medium",,6g,153g,9g,144g,1g,170mg,10mg,680,13g,1g,0
+175,"Hazelnut Swirl Frozen Coffee with Skim Milk, Small",,6g,106g,6g,100g,0g,115mg,10mg,490,13g,1g,0
+176,"Hazelnut Swirl Frozen Coffee with Whole Milk, Large",,10g,202g,11g,192g,1g,230mg,30mg,950,6g,1g,0
+177,"Hazelnut Swirl Frozen Coffee with Whole Milk, Medium",,8g,152g,8g,144g,1g,170mg,20mg,720,5g,1g,0
+178,"Hazelnut Swirl Frozen Coffee with Whole Milk, Small",,7g,106g,6g,99g,0g,115mg,15mg,510,4.5g,1g,0
+179,"Mocha Swirl Frozen Coffee with Cream, Large",,40g,200g,10g,185g,4g,250mg,110mg,1190,22g,2g,0
+180,"Mocha Swirl Frozen Coffee with Cream, Medium",,31g,151g,7g,140g,3g,190mg,85mg,900,17g,2g,0
+181,"Mocha Swirl Frozen Coffee with Cream, Small",,22g,105g,5g,96g,2g,125mg,60mg,630,12g,1.5g,0
+182,"Mocha Swirl Frozen Coffee with Skim Milk, Large",,6g,204g,11g,189g,4g,190mg,10mg,910,3.5g,1g,0
+183,"Mocha Swirl Frozen Coffee with Skim Milk, Medium",,5g,154g,8g,143g,3g,150mg,5mg,690,3g,1g,0
+184,"Mocha Swirl Frozen Coffee with Skim Milk, Small",,4.5g,107g,6g,98g,2g,100mg,5mg,490,3g,1g,0
+185,"Mocha Swirl Frozen Coffee with Whole Milk, Large",,11g,203g,10g,189g,4g,200mg,25mg,960,7g,1g,0
+186,"Mocha Swirl Frozen Coffee with Whole Milk, Medium",,9g,154g,8g,142g,3g,150mg,20mg,730,6g,1g,0
+187,"Mocha Swirl Frozen Coffee with Whole Milk, Small",,7g,107g,5g,98g,2g,100mg,15mg,520,4.5g,1g,0
+188,"Frozen Dunkaccino, Large",,21g,179g,11g,160g,4g,350mg,30mg,940,15g,1.5g,0
+189,"Frozen Dunkaccino, Medium",,16g,135g,8g,121g,3g,260mg,20mg,720,12g,1g,0
+190,"Frozen Dunkaccino, Small",,12g,94g,6g,84g,2g,180mg,15mg,510,9g,1g,0
+191,"Frozen Vanilla Chai, Large",,14g,161g,9g,151g,0g,250mg,25mg,800,10g,0g,0
+192,"Frozen Vanilla Chai, Medium",,10g,121g,7g,113g,0g,190mg,15mg,600,7g,0g,0
+193,"Frozen Vanilla Chai, Small",,7g,80g,4g,76g,0g,125mg,10mg,400,5g,0g,0
+194,Hash Browns,,8g,17g,2g,0g,2g,480mg,0mg,140,1g,0g,$1.29
+195,"Americano, Large",,0g,2g,0g,2g,0g,35mg,0mg,15,0g,0g,0
+196,"Americano, Medium",,0g,2g,0g,2g,0g,25mg,0mg,10,0g,0g,0
+197,"Americano, Small",,0g,1g,0g,1g,0g,20mg,0mg,10,0g,0g,0
+198,"Caramel Swirl Hot Cappuccino with Skim Milk, Large",,0g,64g,11g,62g,0g,140mg,10mg,310,0g,0g,0
+199,"Caramel Swirl Hot Cappuccino with Skim Milk, Medium",,0g,48g,8g,47g,0g,105mg,5mg,230,0g,0g,0
+200,"Caramel Swirl Hot Cappuccino with Skim Milk, Small",,0g,32g,6g,31g,0g,70mg,5mg,150,0g,0g,0
+201,"Caramel Swirl Hot Cappuccino with Whole Milk, Large",,8g,64g,10g,62g,0g,150mg,30mg,370,4.5g,0g,0
+202,"Caramel Swirl Hot Cappuccino with Whole Milk, Medium",,6g,48g,8g,46g,0g,110mg,20mg,280,3.5g,0g,0
+203,"Caramel Swirl Hot Cappuccino with Whole Milk, Small",,4g,32g,5g,31g,0g,75mg,15mg,190,2.5g,0g,0
+204,"French Vanilla Swirl Hot Cappuccino with Skim Milk, Large",,0g,64g,11g,60g,0g,170mg,10mg,300,0g,0g,0
+205,"French Vanilla Swirl Hot Cappuccino with Skim Milk, Medium",,0g,48g,8g,45g,0g,130mg,5mg,230,0g,0g,0
+206,"French Vanilla Swirl Hot Cappuccino with Skim Milk, Small",,0g,32g,5g,30g,0g,85mg,5mg,150,0g,0g,0
+207,"French Vanilla Swirl Hot Cappuccino with Whole Milk, Large",,8g,63g,10g,60g,0g,170mg,30mg,370,4.5g,0g,0
+208,"French Vanilla Swirl Hot Cappuccino with Whole Milk, Medium",,6g,48g,8g,45g,0g,130mg,20mg,280,3.5g,0g,0
+209,"French Vanilla Swirl Hot Cappuccino with Whole Milk, Small",,4g,32g,5g,30g,0g,85mg,15mg,180,2.5g,0g,0
+210,"Hazelnut Swirl Hot Cappuccino with Skim Milk, Large",,0g,64g,11g,60g,0g,170mg,10mg,300,0g,0g,0
+211,"Hazelnut Swirl Hot Cappuccino with Skim Milk, Medium",,0g,48g,8g,45g,0g,130mg,5mg,230,0g,0g,0
+212,"Hazelnut Swirl Hot Cappuccino with Skim Milk, Small",,0g,32g,5g,30g,0g,85mg,5mg,150,0g,0g,0
+213,"Hazelnut Swirl Hot Cappuccino with Whole Milk, Large",,8g,64g,10g,60g,0g,170mg,30mg,370,4.5g,0g,0
+214,"Hazelnut Swirl Hot Cappuccino with Whole Milk, Medium",,6g,48g,8g,45g,0g,130mg,20mg,280,3.5g,0g,0
+215,"Hazelnut Swirl Hot Cappuccino with Whole Milk, Small",,4g,32g,5g,30g,0g,85mg,15mg,190,2.5g,0g,0
+216,"Hot Cappuccino, Large",,8g,13g,8g,13g,0g,120mg,25mg,160,4.5g,0g,$3.69
+217,"Hot Cappuccino, Medium",,6g,10g,6g,10g,0g,90mg,20mg,120,3.5g,0g,$3.19
+218,"Hot Cappuccino, Small",,4g,7g,4g,7g,0g,70mg,15mg,80,2.5g,0g,$2.69
+219,"Hot Cappuccino with Sugar, Large",,8g,48g,8g,48g,0g,120mg,25mg,290,4.5g,0g,0
+220,"Hot Cappuccino with Sugar, Medium",,6g,36g,6g,36g,0g,90mg,20mg,220,3.5g,0g,0
+221,"Hot Cappuccino with Sugar, Small",,4g,24g,4g,24g,0g,70mg,15mg,140,2.5g,0g,0
+222,"Maple Pecan Swirl Hot Cappuccino with Skim Milk, Large",,0g,66g,11g,62g,0g,170mg,10mg,310,0g,0g,0
+223,"Maple Pecan Swirl Hot Cappuccino with Skim Milk, Medium",,0g,49g,8g,47g,0g,130mg,5mg,230,0g,0g,0
+224,"Maple Pecan Swirl Hot Cappuccino with Skim Milk, Small",,0g,33g,5g,31g,0g,85mg,5mg,160,0g,0g,0
+225,"Maple Pecan Swirl Hot Cappuccino with Whole Milk, Large",,8g,65g,10g,62g,0g,180mg,30mg,380,4.5g,0g,0
+226,"Maple Pecan Swirl Hot Cappuccino with Whole Milk, Medium",,6g,49g,8g,46g,0g,130mg,20mg,280,3.5g,0g,0
+227,"Maple Pecan Swirl Hot Cappuccino with Whole Milk, Small",,4g,33g,5g,31g,0g,90mg,15mg,190,2.5g,0g,0
+228,"Mocha Swirl Hot Cappuccino with Skim Milk, Large",,1g,63g,10g,57g,2g,140mg,5mg,300,0.5g,0g,0
+229,"Mocha Swirl Hot Cappuccino with Skim Milk, Medium",,1g,47g,8g,43g,2g,105mg,5mg,230,0g,0g,0
+230,"Mocha Swirl Hot Cappuccino with Skim Milk, Small",,0.5g,32g,5g,29g,1g,70mg,0mg,150,0g,0g,0
+231,"Mocha Swirl Hot Cappuccino with Whole Milk, Large",,9g,63g,10g,57g,2g,140mg,25mg,370,5g,0g,0
+232,"Mocha Swirl Hot Cappuccino with Whole Milk, Medium",,7g,47g,7g,43g,2g,105mg,20mg,280,4g,0g,0
+233,"Mocha Swirl Hot Cappuccino with Whole Milk, Small",,4.5g,31g,5g,28g,1g,70mg,10mg,180,2.5g,0g,0
+234,"Pumpkin Swirl Hot Cappuccino with Skim Milk, Large",,0g,62g,12g,60g,0g,230mg,5mg,300,0g,0g,0
+235,"Pumpkin Swirl Hot Cappuccino with Skim Milk, Medium",,0g,47g,9g,45g,0g,170mg,5mg,230,0g,0g,0
+236,"Pumpkin Swirl Hot Cappuccino with Skim Milk, Small",,0g,31g,6g,30g,0g,115mg,5mg,150,0g,0g,0
+237,"Pumpkin Swirl Hot Cappuccino with Whole Milk, Large",,8g,62g,11g,60g,0g,230mg,25mg,370,5g,0g,0
+238,"Pumpkin Swirl Hot Cappuccino with Whole Milk, Medium",,6g,46g,8g,45g,0g,170mg,20mg,280,3.5g,0g,0
+239,"Pumpkin Swirl Hot Cappuccino with Whole Milk, Small",,4g,31g,5g,30g,0g,115mg,15mg,180,2.5g,0g,0
+240,"Dunkaccino, Extra Large",,23g,80g,4g,58g,1g,510mg,10mg,540,19g,0g,0
+241,"Dunkaccino, Large",,21g,73g,4g,53g,1g,470mg,10mg,490,17g,0g,$2.49
+242,"Dunkaccino, Medium",,15g,52g,3g,38g,1g,340mg,5mg,350,12g,0g,$2.09
+243,"Dunkaccino, Small",,10g,36g,2g,26g,0g,230mg,5mg,240,8g,0g,$1.69
+244,"Mint Hot Chocolate, Extra Large",,16g,87g,3g,70g,3g,430mg,0mg,490,14g,0g,0
+245,"Mint Hot Chocolate, Large",,13g,72g,3g,57g,3g,350mg,0mg,400,12g,0g,0
+246,"Mint Hot Chocolate, Medium",,10g,52g,2g,42g,2g,260mg,0mg,300,9g,0g,0
+247,"Mint Hot Chocolate, Small",,7g,36g,1g,29g,1g,180mg,0mg,210,6g,0g,0
+248,"Oreo Hot Chocolate, Large",,10g,88g,6g,70g,3g,500mg,0mg,460,8g,0g,$2.35
+249,"Oreo Hot Chocolate, Medium",,8g,66g,4g,53g,2g,380mg,0mg,350,6g,0g,$2.15
+250,"Oreo Hot Chocolate, Small",,5g,44g,3g,35g,1g,250mg,0mg,230,4g,0g,$1.85
+251,"Oreo Hot Chocolate, XLarge",,13g,110g,7g,88g,4g,630mg,0mg,580,10g,0g,$2.55
+252,"Original Hot Chocolate, Extra Large",,15g,89g,4g,71g,3g,480mg,0mg,500,14g,0g,0
+253,"Original Hot Chocolate, Large",,14g,82g,4g,65g,3g,440mg,0mg,460,13g,0g,0
+254,"Original Hot Chocolate, Medium",,10g,59g,3g,46g,2g,320mg,0mg,330,9g,0g,0
+255,"Original Hot Chocolate, Small",,7g,40g,2g,32g,2g,210mg,0mg,220,6g,0g,0
+256,"Salted Caramel Hot Chocolate, Extra Large",,17g,87g,5g,69g,2g,750mg,0mg,510,15g,0g,0
+257,"Salted Caramel Hot Chocolate, Large",,14g,71g,4g,57g,2g,620mg,0mg,420,13g,0g,0
+258,"Salted Caramel Hot Chocolate, Medium",,10g,52g,3g,42g,1g,450mg,0mg,310,9g,0g,0
+259,"Salted Caramel Hot Chocolate, Small",,7g,36g,2g,29g,1g,320mg,0mg,210,6g,0g,0
+260,"Turbo Hot Chocolate, Large",,12g,71g,3g,55g,3g,380mg,0mg,400,11g,0g,0
+261,"Turbo Hot Chocolate, Medium",,9g,51g,2g,39g,2g,270mg,0mg,280,8g,0g,0
+262,"Turbo Hot Chocolate, Small",,6g,35g,2g,27g,1g,190mg,0mg,190,5g,0g,0
+263,"Caramel Mocha Swirl Hot Coffee, Extra Large",,0g,66g,4g,60g,2g,50mg,5mg,280,0g,0g,0
+264,"Caramel Mocha Swirl Hot Coffee, Large",,0g,53g,3g,48g,1g,40mg,0mg,230,0g,0g,0
+265,"Caramel Mocha Swirl Hot Coffee, Medium",,0g,39g,2g,36g,1g,30mg,0mg,170,0g,0g,0
+266,"Caramel Mocha Swirl Hot Coffee, Small",,0g,26g,2g,24g,1g,20mg,0mg,110,0g,0g,0
+267,"Caramel Mocha Swirl Hot Coffee with Cream, Extra Large",,15g,68g,6g,60g,2g,80mg,55mg,430,9g,0g,0
+268,"Caramel Mocha Swirl Hot Coffee with Cream, Large",,12g,55g,5g,48g,1g,65mg,40mg,340,7g,0g,0
+269,"Caramel Mocha Swirl Hot Coffee with Cream, Medium",,9g,41g,3g,36g,1g,50mg,30mg,260,6g,0g,0
+270,"Caramel Mocha Swirl Hot Coffee with Cream, Small",,6g,27g,2g,24g,1g,30mg,20mg,170,3.5g,0g,0
+271,"Caramel Swirl Hot Coffee with Cream, Extra Large",,15g,66g,7g,61g,0g,150mg,55mg,420,9g,0g,0
+272,"Caramel Swirl Hot Coffee with Cream, Large",,12g,53g,6g,49g,0g,120mg,45mg,340,7g,0g,0
+273,"Caramel Swirl Hot Coffee with Cream, Medium",,9g,40g,4g,37g,0g,90mg,30mg,250,5g,0g,0
+274,"Caramel Swirl Hot Coffee with Cream, Small",,6g,27g,3g,24g,0g,60mg,20mg,170,3.5g,0g,0
+275,"French Vanilla Hot Coffee, Small",,0g,1g,0g,0g,0g,5mg,0mg,10,0g,0g,0
+276,"French Vanilla Swirl Hot Coffee, Extra Large",,0g,65g,4g,60g,0g,90mg,5mg,280,0g,0g,0
+277,"French Vanilla Swirl Hot Coffee, Large",,0g,53g,3g,49g,0g,75mg,5mg,230,0g,0g,0
+278,"French Vanilla Swirl Hot Coffee, Medium",,0g,39g,2g,36g,0g,50mg,5mg,170,0g,0g,0
+279,"French Vanilla Swirl Hot Coffee, Small",,0g,26g,2g,24g,0g,35mg,0mg,110,0g,0g,0
+280,"French Vanilla Swirl Hot Coffee with Cream, Extra Large",,15g,68g,6g,60g,0g,115mg,55mg,430,9g,0g,0
+281,"French Vanilla Swirl Hot Coffee with Cream, Large",,12g,54g,5g,48g,0g,95mg,45mg,340,7g,0g,0
+282,"French Vanilla Swirl Hot Coffee with Cream, Medium",,9g,41g,4g,36g,0g,70mg,35mg,260,5g,0g,0
+283,"French Vanilla Swirl Hot Coffee with Cream, Small",,6g,27g,2g,24g,0g,45mg,20mg,170,3.5g,0g,0
+284,"Hazelnut Swirl Hot Coffee, Extra Large",,0g,66g,4g,60g,0g,90mg,5mg,280,0g,0g,0
+285,"Hazelnut Swirl Hot Coffee, Large",,0g,53g,3g,48g,0g,70mg,5mg,230,0g,0g,0
+286,"Hazelnut Swirl Hot Coffee, Medium",,0g,39g,2g,36g,0g,50mg,5mg,170,0g,0g,$6.19
+287,"Hazelnut Swirl Hot Coffee, Small",,0g,26g,2g,24g,0g,35mg,0mg,110,0g,0g,0
+288,"Hazelnut Swirl Hot Coffee with Cream, Extra Large",,15g,68g,6g,60g,0g,115mg,55mg,430,9g,0g,0
+289,"Hazelnut Swirl Hot Coffee with Cream, Large",,12g,55g,5g,48g,0g,95mg,45mg,340,7g,0g,0
+290,"Hazelnut Swirl Hot Coffee with Cream, Medium",,9g,41g,4g,36g,0g,70mg,35mg,260,5g,0g,0
+291,"Hazelnut Swirl Hot Coffee with Cream, Small",,6g,27g,2g,24g,0g,45mg,20mg,170,3.5g,0g,0
+292,"Hot Coffee, Extra Large",,0g,2g,1g,0g,0g,15mg,0mg,15,0g,0g,0
+293,"Hot Coffee, Large",,0g,2g,1g,0g,0g,15mg,0mg,10,0g,0g,$3.69
+294,"Hot Coffee, Medium",,0g,1g,1g,0g,0g,10mg,0mg,10,0g,0g,$3.99
+295,"Hot Coffee, Small",,0g,1g,0g,0g,0g,5mg,0mg,5,0g,0g,$2.69
+296,"Hot Coffee with Almond Milk, Extra Large",,1.5g,11g,1g,8g,1g,95mg,0mg,60,0g,0g,0
+297,"Hot Coffee with Almond Milk, Large",,1g,8g,1g,6g,0g,75mg,0mg,45,0g,0g,0
+298,"Hot Coffee with Almond Milk, Medium",,0.5g,6g,1g,4g,0g,50mg,0mg,30,0g,0g,0
+299,"Hot Coffee with Almond Milk, Small",,0g,3g,1g,2g,0g,25mg,0mg,20,0g,0g,0
+300,"Hot Coffee with Cream, Extra Large",,14g,5g,3g,0g,0g,45mg,50mg,160,9g,0g,0
+301,"Hot Coffee with Cream, Large",,11g,4g,2g,0g,0g,35mg,40mg,120,7g,0g,0
+302,"Hot Coffee with Cream, Medium",,9g,3g,2g,0g,0g,25mg,30mg,90,5g,0g,0
+303,"Hot Coffee with Cream, Small",,6g,2g,1g,0g,0g,20mg,20mg,60,4g,0g,0
+304,"Hot Coffee with Cream and Sugar, Extra Large",,14g,48g,3g,44g,0g,45mg,50mg,320,9g,0g,0
+305,"Hot Coffee with Cream and Sugar, Large",,11g,39g,2g,35g,0g,35mg,40mg,260,7g,0g,0
+306,"Hot Coffee with Cream and Sugar, Medium",,9g,29g,2g,26g,0g,25mg,30mg,190,5g,0g,$1.99
+307,"Hot Coffee with Cream and Sugar, Small",,6g,19g,1g,17g,0g,20mg,20mg,120,4g,0g,0
+308,"Hot Coffee with Milk, Extra Large",,2.5g,6g,3g,4g,0g,45mg,10mg,60,1.5g,0g,0
+309,"Hot Coffee with Milk, Large",,2g,5g,3g,3g,0g,40mg,5mg,45,1g,0g,0
+310,"Hot Coffee with Milk, Medium",,1.5g,3g,2g,2g,0g,30mg,5mg,35,1g,0g,0
+311,"Hot Coffee with Milk, Small",,1g,2g,1g,1g,0g,20mg,5mg,25,1g,0g,0
+312,"Hot Coffee with Milk and Sugar, Extra Large",,2.5g,49g,3g,47g,0g,45mg,10mg,230,1.5g,0g,0
+313,"Hot Coffee with Milk and Sugar, Large",,2g,44g,3g,42g,0g,40mg,5mg,200,1g,0g,0
+314,"Hot Coffee with Milk and Sugar, Medium",,1.5g,30g,2g,28g,0g,30mg,5mg,140,1g,0g,0
+315,"Hot Coffee with Milk and Sugar, Small",,1g,20g,1g,19g,0g,20mg,5mg,80,1g,0g,0
+316,"Hot Coffee with Skim Milk, Extra Large",,0g,6g,4g,4g,0g,45mg,0mg,40,0g,0g,0
+317,"Hot Coffee with Skim Milk, Large",,0g,5g,3g,3g,0g,40mg,0mg,30,0g,0g,0
+318,"Hot Coffee with Skim Milk, Medium",,0g,4g,2g,2g,0g,30mg,0mg,25,0g,0g,0
+319,"Hot Coffee with Skim Milk, Small",,0g,3g,2g,2g,0g,25mg,0mg,15,0g,0g,0
+320,"Hot Coffee with Skim Milk and Splenda No Calorie Sweetener, Extra Large",,0g,10g,4g,7g,0g,45mg,0mg,50,0g,0g,0
+321,"Hot Coffee with Skim Milk and Splenda No Calorie Sweetener, Large",,0g,8g,3g,6g,0g,40mg,0mg,40,0g,0g,0
+322,"Hot Coffee with Skim Milk and Splenda No Calorie Sweetener, Medium",,0g,5g,2g,4g,0g,30mg,0mg,30,0g,0g,0
+323,"Hot Coffee with Skim Milk and Splenda No Calorie Sweetener, Small",,0g,3g,1g,2g,0g,20mg,0mg,20,0g,0g,0
+324,"Hot Coffee with Skim Milk and Sugar, Extra Large",,0g,49g,4g,47g,0g,50mg,0mg,210,0g,0g,0
+325,"Hot Coffee with Skim Milk and Sugar, Large",,0g,40g,3g,38g,0g,40mg,0mg,170,0g,0g,0
+326,"Hot Coffee with Skim Milk and Sugar, Medium",,0g,30g,2g,28g,0g,30mg,0mg,120,0g,0g,0
+327,"Hot Coffee with Skim Milk and Sugar, Small",,0g,20g,2g,19g,0g,25mg,0mg,70,0g,0g,0
+328,"Hot Coffee with Splenda No Calorie Sweetener, Extra Large",,0g,6g,1g,3g,0g,15mg,0mg,30,0g,0g,0
+329,"Hot Coffee with Splenda No Calorie Sweetener, Large",,0g,5g,1g,3g,0g,15mg,0mg,20,0g,0g,0
+330,"Hot Coffee with Splenda No Calorie Sweetener, Medium",,0g,3g,1g,2g,0g,10mg,0mg,15,0g,0g,0
+331,"Hot Coffee with Splenda No Calorie Sweetener, Small",,0g,2g,0g,1g,0g,5mg,0mg,10,0g,0g,0
+332,"Hot Coffee with Sugar, Extra Large",,0g,46g,1g,43g,0g,15mg,0mg,180,0g,0g,0
+333,"Hot Coffee with Sugar, Large",,0g,37g,1g,35g,0g,15mg,0mg,150,0g,0g,0
+334,"Hot Coffee with Sugar, Medium",,0g,28g,1g,26g,0g,10mg,0mg,110,0g,0g,0
+335,"Hot Coffee with Sugar, Small",,0g,18g,0g,17g,0g,5mg,0mg,60,0g,0g,0
+336,"Maple Pecan Swirl Hot Coffee, Extra Large",,0g,68g,4g,63g,0g,90mg,5mg,290,0g,0g,0
+337,"Maple Pecan Swirl Hot Coffee, Large",,0g,55g,3g,51g,0g,75mg,5mg,240,0g,0g,0
+338,"Maple Pecan Swirl Hot Coffee, Medium",,0g,41g,2g,38g,0g,55mg,5mg,180,0g,0g,0
+339,"Maple Pecan Swirl Hot Coffee, Small",,0g,27g,2g,25g,0g,35mg,0mg,120,0g,0g,0
+340,"Maple Pecan Swirl Hot Coffee with Cream, Extra Large",,14g,70g,6g,65g,0g,140mg,50mg,440,8g,0g,0
+341,"Maple Pecan Swirl Hot Coffee with Cream, Large",,12g,56g,5g,52g,0g,115mg,40mg,350,6g,0g,0
+342,"Maple Pecan Swirl Hot Coffee with Cream, Medium",,9g,42g,4g,39g,0g,85mg,30mg,260,4.5g,0g,0
+343,"Maple Pecan Swirl Hot Coffee with Cream, Small",,6g,28g,3g,26g,0g,60mg,20mg,170,3g,0g,0
+344,"Mocha Swirl Hot Coffee, Extra Large",,1g,65g,3g,57g,3g,50mg,0mg,280,0.5g,0g,$0.49
+345,"Mocha Swirl Hot Coffee, Large",,1g,52g,3g,46g,2g,40mg,0mg,230,0g,0g,0
+346,"Mocha Swirl Hot Coffee, Medium",,0.5g,39g,2g,34g,2g,30mg,0mg,170,0g,0g,0
+347,"Mocha Swirl Hot Coffee, Small",,0g,26g,1g,23g,1g,20mg,0mg,110,0g,0g,0
+348,"Mocha Swirl Hot Coffee with Cream, Extra Large",,16g,68g,5g,57g,3g,75mg,50mg,430,10g,0g,0
+349,"Mocha Swirl Hot Coffee with Cream, Large",,12g,54g,4g,46g,2g,60mg,40mg,340,8g,0g,0
+350,"Mocha Swirl Hot Coffee with Cream, Medium",,9g,41g,3g,34g,2g,45mg,30mg,260,6g,0g,0
+351,"Mocha Swirl Hot Coffee with Cream, Small",,6g,27g,2g,23g,1g,30mg,20mg,170,4g,0g,0
+352,"Pumpkin Swirl Hot Coffee, Extra Large",,0g,63g,5g,60g,0g,150mg,0mg,280,0g,0g,0
+353,"Pumpkin Swirl Hot Coffee, Large",,0g,50g,4g,48g,0g,125mg,0mg,220,0g,0g,0
+354,"Pumpkin Swirl Hot Coffee, Medium",,0g,38g,3g,36g,0g,95mg,0mg,170,0g,0g,0
+355,"Pumpkin Swirl Hot Coffee, Small",,0g,25g,2g,24g,0g,65mg,0mg,110,0g,0g,0
+356,"Pumpkin Swirl Hot Coffee with Cream, Extra Large",,15g,65g,7g,60g,0g,180mg,50mg,420,9g,0g,0
+357,"Pumpkin Swirl Hot Coffee with Cream, Large",,12g,53g,5g,48g,0g,150mg,40mg,340,7g,0g,0
+358,"Pumpkin Swirl Hot Coffee with Cream, Medium",,9g,39g,4g,36g,0g,110mg,30mg,250,6g,0g,0
+359,"Pumpkin Swirl Hot Coffee with Cream, Small",,6g,26g,3g,24g,0g,75mg,20mg,170,3.5g,0g,0
+360,Espresso,,0g,1g,0g,0g,0g,5mg,0mg,5,0g,0g,0
+361,Espresso with Sugar,,0g,7g,0g,7g,0g,5mg,0mg,30,0g,0g,0
+362,"Caramel Mocha Swirl Hot Latte with Milk, Large",,12g,70g,14g,67g,1g,230mg,55mg,450,8g,0g,0
+363,"Caramel Mocha Swirl Hot Latte with Milk, Medium",,9g,52g,11g,50g,1g,170mg,40mg,330,6g,0g,0
+364,"Caramel Mocha Swirl Hot Latte with Milk, Small",,6g,35g,7g,33g,1g,115mg,25mg,220,4g,0g,0
+365,"Caramel Mocha Swirl Hot Latte with Skim Milk, Large",,1g,70g,15g,68g,1g,200mg,10mg,350,0.5g,0g,0
+366,"Caramel Mocha Swirl Hot Latte with Skim Milk, Medium",,0.5g,53g,11g,51g,1g,150mg,5mg,260,0g,0g,0
+367,"Caramel Mocha Swirl Hot Latte with Skim Milk, Small",,0g,35g,7g,34g,1g,100mg,5mg,170,0g,0g,0
+368,"Caramel Swirl Hot Latte with Milk, Large",,12g,73g,14g,72g,0g,200mg,40mg,460,7g,0g,0
+369,"Caramel Swirl Hot Latte with Milk, Medium",,9g,55g,11g,54g,0g,150mg,30mg,350,5g,0g,0
+370,"Caramel Swirl Hot Latte with Milk, Small",,6g,37g,7g,37g,0g,100mg,20mg,230,3.5g,0g,0
+371,"Caramel Swirl Hot Latte with Skim Milk, Large",,0g,73g,15g,72g,0g,200mg,10mg,360,0g,0g,0
+372,"Caramel Swirl Hot Latte with Skim Milk, Medium",,0g,55g,11g,55g,0g,150mg,10mg,270,0g,0g,0
+373,"Caramel Swirl Hot Latte with Skim Milk, Small",,0g,38g,8g,37g,0g,100mg,5mg,190,0g,0g,0
+374,"French Vanilla Swirl Hot Latte with Skim Milk, Large",,0g,71g,15g,69g,0g,230mg,10mg,350,0g,0g,0
+375,"French Vanilla Swirl Hot Latte with Skim Milk, Medium",,0g,54g,11g,52g,0g,170mg,10mg,270,0g,0g,0
+376,"French Vanilla Swirl Hot Latte with Skim Milk, Small",,0g,36g,8g,35g,0g,115mg,5mg,180,0g,0g,0
+377,"French Vanilla Swirl Hot Latte with Whole Milk, Large",,12g,71g,14g,68g,0g,230mg,40mg,450,7g,0g,0
+378,"French Vanilla Swirl Hot Latte with Whole Milk, Medium",,9g,53g,11g,52g,0g,170mg,30mg,340,5g,0g,0
+379,"French Vanilla Swirl Hot Latte with Whole Milk, Small",,6g,36g,7g,35g,0g,115mg,20mg,230,3.5g,0g,0
+380,"Hazelnut Swirl Hot Latte with Skim Milk, Large",,0g,72g,15g,69g,0g,230mg,10mg,350,0g,0g,0
+381,"Hazelnut Swirl Hot Latte with Skim Milk, Medium",,0g,54g,11g,52g,0g,170mg,10mg,270,0g,0g,0
+382,"Hazelnut Swirl Hot Latte with Skim Milk, Small",,0g,37g,8g,35g,0g,115mg,5mg,180,0g,0g,0
+383,"Hazelnut Swirl Hot Latte with Whole Milk, Large",,12g,71g,14g,68g,0g,230mg,40mg,450,7g,0g,0
+384,"Hazelnut Swirl Hot Latte with Whole Milk, Medium",,9g,54g,11g,52g,0g,170mg,30mg,340,5g,0g,0
+385,"Hazelnut Swirl Hot Latte with Whole Milk, Small",,6g,36g,7g,35g,0g,115mg,20mg,230,3.5g,0g,0
+386,"Hot Latte with Almond Milk, Large",,4.5g,28g,2g,25g,2g,260mg,0mg,160,0g,0g,0
+387,"Hot Latte with Almond Milk, Medium",,3g,21g,1g,18g,1g,190mg,0mg,120,0g,0g,0
+388,"Hot Latte with Almond Milk, Small",,2g,14g,1g,12g,1g,130mg,0mg,80,0g,0g,0
+389,"Hot Latte with Skim Milk, Large",,0g,20g,13g,20g,0g,170mg,10mg,140,0g,0g,0
+390,"Hot Latte with Skim Milk, Medium",,0g,15g,10g,15g,0g,130mg,5mg,100,0g,0g,0
+391,"Hot Latte with Skim Milk, Small",,0g,10g,6g,10g,0g,85mg,5mg,70,0g,0g,0
+392,"Hot Latte with Skim Milk and Sugar, Large",,0g,55g,13g,55g,0g,170mg,10mg,270,0g,0g,0
+393,"Hot Latte with Skim Milk and Sugar, Medium",,0g,41g,10g,41g,0g,130mg,5mg,200,0g,0g,0
+394,"Hot Latte with Skim Milk and Sugar, Small",,0g,28g,6g,28g,0g,85mg,5mg,140,0g,0g,0
+395,"Hot Latte with Whole Milk, Large",,12g,19g,12g,19g,0g,170mg,35mg,230,7g,0g,$3.69
+396,"Hot Latte with Whole Milk, Medium",,9g,14g,9g,14g,0g,130mg,25mg,170,5g,0g,$3.19
+397,"Hot Latte with Whole Milk, Small",,6g,10g,6g,10g,0g,105mg,25mg,120,3.5g,0g,$2.69
+398,"Hot Latte with Whole Milk and Sugar, Large",,12g,54g,12g,54g,0g,170mg,35mg,370,7g,0g,0
+399,"Hot Latte with Whole Milk and Sugar, Medium",,9g,40g,9g,40g,0g,130mg,25mg,280,5g,0g,0
+400,"Hot Latte with Whole Milk and Sugar, Small",,6g,27g,6g,27g,0g,100mg,25mg,170,3.5g,0g,0
+401,"Maple Pecan Swirl Hot Latte with Skim Milk, Large",,0g,75g,15g,71g,0g,230mg,10mg,370,0g,0g,0
+402,"Maple Pecan Swirl Hot Latte with Skim Milk, Medium",,0g,57g,11g,54g,0g,170mg,10mg,280,0g,0g,0
+403,"Maple Pecan Swirl Hot Latte with Skim Milk, Small",,0g,38g,8g,37g,0g,115mg,5mg,190,0g,0g,0
+404,"Maple Pecan Swirl Hot Latte with Whole Milk, Large",,12g,74g,14g,70g,0g,230mg,40mg,470,7g,0g,0
+405,"Maple Pecan Swirl Hot Latte with Whole Milk, Medium",,9g,56g,11g,53g,0g,170mg,30mg,350,5g,0g,0
+406,"Maple Pecan Swirl Hot Latte with Whole Milk, Small",,6g,38g,7g,36g,0g,115mg,20mg,240,3.5g,0g,0
+407,Mocha Swirl Hot Latte Large with Milk,,13g,72g,13g,67g,2g,200mg,35mg,460,7g,0g,0
+408,Mocha Swirl Hot Latte Medium with Milk,,10g,54g,10g,51g,2g,150mg,25mg,350,6g,0g,0
+409,Mocha Swirl Hot Latte Small with Milk,,6g,37g,7g,34g,1g,100mg,20mg,230,3.5g,0g,0
+410,"Mocha Swirl Hot Latte with Skim Milk, Large",,1.5g,73g,14g,67g,2g,200mg,5mg,360,1g,0g,0
+411,"Mocha Swirl Hot Latte with Skim Milk, Medium",,1g,55g,11g,51g,2g,150mg,5mg,270,0.5g,0g,0
+412,"Mocha Swirl Hot Latte with Skim Milk, Small",,0.5g,37g,7g,35g,1g,100mg,5mg,180,0g,0g,0
+413,"Pumpkin Swirl Hot Latte with Skim Milk, Large",,0.5g,71g,16g,70g,0g,290mg,10mg,360,0g,0g,0
+414,"Pumpkin Swirl Hot Latte with Skim Milk, Medium",,0g,54g,12g,53g,0g,220mg,5mg,270,0g,0g,0
+415,"Pumpkin Swirl Hot Latte with Skim Milk, Small",,0g,37g,8g,36g,0g,140mg,5mg,180,0g,0g,0
+416,"Pumpkin Swirl Hot Latte with Whole Milk, Large",,12g,70g,15g,69g,0g,290mg,40mg,450,7g,0g,0
+417,"Pumpkin Swirl Hot Latte with Whole Milk, Medium",,9g,53g,11g,52g,0g,210mg,30mg,340,5g,0g,0
+418,"Pumpkin Swirl Hot Latte with Whole Milk, Small",,6g,36g,7g,36g,0g,140mg,20mg,230,3.5g,0g,0
+419,"Caramel Swirl Hot Macchiato with Skim Milk, Large",,0g,66g,11g,65g,0g,150mg,10mg,310,0g,0g,0
+420,"Caramel Swirl Hot Macchiato with Skim Milk, Medium",,0g,49g,8g,49g,0g,115mg,5mg,240,0g,0g,0
+421,"Caramel Swirl Hot Macchiato with Skim Milk, Small",,0g,33g,6g,33g,0g,80mg,5mg,160,0g,0g,0
+422,"Caramel Swirl Hot Macchiato with Whole Milk, Large",,8g,65g,10g,64g,0g,160mg,30mg,380,4.5g,0g,0
+423,"Caramel Swirl Hot Macchiato with Whole Milk, Medium",,6g,49g,8g,49g,0g,120mg,20mg,290,3.5g,0g,0
+424,"Caramel Swirl Hot Macchiato with Whole Milk, Small",,4g,33g,5g,33g,0g,80mg,15mg,190,2.5g,0g,0
+425,"French Vanilla Swirl Hot Macchiato with Skim Milk, Large",,0g,66g,11g,61g,0g,180mg,10mg,310,0g,0g,0
+426,"French Vanilla Swirl Hot Macchiato with Skim Milk, Medium",,0g,49g,8g,46g,0g,135mg,5mg,240,0g,0g,0
+427,"French Vanilla Swirl Hot Macchiato with Skim Milk, Small",,0g,33g,6g,30g,0g,95mg,5mg,160,0g,0g,0
+428,"French Vanilla Swirl Hot Macchiato with Whole Milk, Large",,8g,65g,10g,60g,0g,180mg,30mg,380,4.5g,0g,0
+429,"French Vanilla Swirl Hot Macchiato with Whole Milk, Medium",,6g,49g,8g,45g,0g,140mg,20mg,280,3.5g,0g,0
+430,"French Vanilla Swirl Hot Macchiato with Whole Milk, Small",,4g,33g,5g,30g,0g,95mg,15mg,190,2.5g,0g,0
+431,"Hazelnut Swirl Hot Macchiato with Skim Milk, Large",,0g,66g,11g,61g,0g,180mg,10mg,310,0g,0g,0
+432,"Hazelnut Swirl Hot Macchiato with Skim Milk, Medium",,0g,50g,8g,46g,0g,135mg,5mg,240,0g,0g,0
+433,"Hazelnut Swirl Hot Macchiato with Skim Milk, Small",,0g,33g,6g,30g,0g,95mg,5mg,160,0g,0g,0
+434,"Hazelnut Swirl Hot Macchiato with Whole Milk, Large",,8g,65g,10g,60g,0g,180mg,30mg,380,4.5g,0g,0
+435,"Hazelnut Swirl Hot Macchiato with Whole Milk, Medium",,6g,49g,8g,45g,0g,140mg,20mg,290,3.5g,0g,0
+436,"Hazelnut Swirl Hot Macchiato with Whole Milk, Small",,4g,33g,5g,30g,0g,95mg,15mg,190,2.5g,0g,0
+437,"Hot Macchiato with Skim Milk, Large",,0g,14g,8g,14g,0g,125mg,5mg,100,0g,0g,0
+438,"Hot Macchiato with Skim Milk, Medium",,0g,11g,6g,11g,0g,95mg,5mg,70,0g,0g,0
+439,"Hot Macchiato with Skim Milk, Small",,0g,8g,4g,8g,0g,65mg,0mg,50,0g,0g,0
+440,"Hot Macchiato with Whole Milk, Large",,8g,14g,8g,14g,0g,125mg,25mg,160,4.5g,0g,0
+441,"Hot Macchiato with Whole Milk, Medium",,6g,11g,6g,11g,0g,95mg,20mg,120,3.5g,0g,0
+442,"Hot Macchiato with Whole Milk, Small",,4g,7g,4g,7g,0g,65mg,10mg,80,2.5g,0g,0
+443,"Maple Pecan Swirl Hot Macchiato with Skim Milk, Large",,0g,67g,11g,63g,0g,180mg,10mg,320,0g,0g,0
+444,"Maple Pecan Swirl Hot Macchiato with Skim Milk, Medium",,0g,51g,8g,47g,0g,140mg,5mg,240,0g,0g,0
+445,"Maple Pecan Swirl Hot Macchiato with Skim Milk, Small",,0g,34g,6g,31g,0g,95mg,5mg,160,0g,0g,0
+446,"Maple Pecan Swirl Hot Macchiato with Whole Milk, Large",,8g,67g,10g,62g,0g,190mg,30mg,390,4.5g,0g,0
+447,"Maple Pecan Swirl Hot Macchiato with Whole Milk, Medium",,6g,50g,8g,47g,0g,140mg,20mg,290,3.5g,0g,0
+448,"Maple Pecan Swirl Hot Macchiato with Whole Milk, Small",,4g,34g,5g,31g,0g,95mg,15mg,200,2.5g,0g,0
+449,"Mocha Swirl Hot Macchiato with Skim Milk, Large",,1g,65g,10g,58g,2g,150mg,5mg,310,0.5g,0g,0
+450,"Mocha Swirl Hot Macchiato with Skim Milk, Medium",,1g,49g,8g,43g,2g,115mg,5mg,240,0.5g,0g,0
+451,"Mocha Swirl Hot Macchiato with Skim Milk, Small",,0.5g,33g,5g,29g,1g,80mg,0mg,160,0g,0g,0
+452,"Mocha Swirl Hot Macchiato with Whole Milk, Large",,9g,65g,10g,58g,2g,150mg,25mg,380,5g,0g,0
+453,"Mocha Swirl Hot Macchiato with Whole Milk, Medium",,7g,49g,7g,43g,2g,115mg,20mg,280,4g,0g,0
+454,"Mocha Swirl Hot Macchiato with Whole Milk, Small",,4.5g,33g,5g,29g,1g,80mg,10mg,190,2.5g,0g,0
+455,"Pumpkin Swirl Hot Macchiato with Skim Milk, Large",,0.5g,66g,12g,63g,0g,240mg,5mg,320,0g,0g,0
+456,"Pumpkin Swirl Hot Macchiato with Skim Milk, Medium",,0g,50g,9g,47g,0g,180mg,5mg,240,0g,0g,0
+457,"Pumpkin Swirl Hot Macchiato with Skim Milk, Small",,0g,33g,6g,31g,0g,125mg,5mg,160,0g,0g,0
+458,"Pumpkin Swirl Hot Macchiato with Whole Milk, Large",,8g,66g,11g,62g,0g,240mg,25mg,390,5g,0g,0
+459,"Pumpkin Swirl Hot Macchiato with Whole Milk, Medium",,6g,49g,8g,47g,0g,180mg,20mg,290,3.5g,0g,0
+460,"Pumpkin Swirl Hot Macchiato with Whole Milk, Small",,4g,33g,6g,31g,0g,125mg,15mg,200,2.5g,0g,0
+461,"Apple Cider, Extra Large (Regional)",,0g,80g,0g,80g,0g,160mg,0mg,320,0g,0g,0
+462,"Apple Cider, Large (Regional)",,0g,66g,0g,66g,0g,130mg,0mg,260,0g,0g,0
+463,"Apple Cider, Medium (Regional)",,0g,45g,0g,45g,0g,90mg,0mg,180,0g,0g,0
+464,"Apple Cider, Small (Regional)",,0g,31g,0g,31g,0g,60mg,0mg,120,0g,0g,0
+465,"Vanilla Chai, Large",,12g,75g,14g,66g,0g,210mg,10mg,450,10g,0g,0
+466,"Vanilla Chai, Medium",,9g,56g,10g,49g,0g,160mg,10mg,340,7g,0g,0
+467,"Vanilla Chai, Small",,6g,37g,7g,33g,0g,105mg,5mg,230,5g,0g,$2.15
+468,"Caramel Swirl Iced Cappuccino with Skim Milk, Large",,0g,64g,11g,62g,0g,160mg,10mg,310,0g,0g,0
+469,"Caramel Swirl Iced Cappuccino with Skim Milk, Medium",,0g,48g,8g,47g,0g,120mg,5mg,230,0g,0g,0
+470,"Caramel Swirl Iced Cappuccino with Skim Milk, Small",,0g,32g,6g,31g,0g,80mg,5mg,150,0g,0g,0
+471,"Caramel Swirl Iced Cappuccino with Whole Milk, Large",,8g,64g,10g,62g,0g,160mg,30mg,370,4.5g,0g,0
+472,"Caramel Swirl Iced Cappuccino with Whole Milk, Medium",,6g,48g,8g,46g,0g,120mg,20mg,280,3.5g,0g,0
+473,"Caramel Mocha Swirl Iced Coffee, Large",,0g,54g,4g,48g,1g,45mg,0mg,230,0g,0g,0
+474,"Caramel Mocha Swirl Iced Coffee, Medium",,0g,41g,3g,36g,1g,35mg,0mg,180,0g,0g,$21.99
+475,"Caramel Mocha Swirl Iced Coffee, Small",,0g,27g,2g,24g,1g,25mg,0mg,120,0g,0g,$3.89
+476,"Caramel Mocha Swirl Iced Coffee with Cream, Large",,12g,56g,5g,48g,1g,70mg,40mg,350,7g,0g,0
+477,"Caramel Mocha Swirl Iced Coffee with Cream, Medium",,9g,42g,4g,36g,1g,50mg,30mg,260,6g,0g,0
+478,"Caramel Swirl Iced Cappuccino with Whole Milk, Small",,4g,32g,5g,31g,0g,80mg,15mg,190,2.5g,0g,0
+479,"French Vanilla Swirl Iced Cappuccino with Skim Milk, Large",,0g,64g,11g,60g,0g,190mg,10mg,300,0g,0g,0
+480,"French Vanilla Swirl Iced Cappuccino with Skim Milk, Medium",,0g,48g,8g,45g,0g,140mg,5mg,230,0g,0g,0
+481,"French Vanilla Swirl Iced Cappuccino with Skim Milk, Small",,0g,32g,5g,30g,0g,95mg,5mg,150,0g,0g,0
+482,"French Vanilla Swirl Iced Cappuccino with Whole Milk, Large",,8g,63g,10g,60g,0g,190mg,30mg,370,4.5g,0g,0
+483,"French Vanilla Swirl Iced Cappuccino with Whole Milk, Medium",,6g,48g,8g,45g,0g,140mg,20mg,280,3.5g,0g,0
+484,"French Vanilla Swirl Iced Cappuccino with Whole Milk, Small",,4g,32g,5g,30g,0g,95mg,15mg,180,2.5g,0g,0
+485,"Hazelnut Swirl Iced Cappuccino with Skim Milk, Large",,0g,64g,11g,60g,0g,190mg,10mg,300,0g,0g,0
+486,"Hazelnut Swirl Iced Cappuccino with Skim Milk, Medium",,0g,48g,8g,45g,0g,140mg,5mg,230,0g,0g,0
+487,"Hazelnut Swirl Iced Cappuccino with Skim Milk, Small",,0g,32g,5g,30g,0g,95mg,5mg,150,0g,0g,0
+488,"Hazelnut Swirl Iced Cappuccino with Whole Milk, Large",,8g,64g,10g,60g,0g,190mg,30mg,370,4.5g,0g,0
+489,"Hazelnut Swirl Iced Cappuccino with Whole Milk, Medium",,6g,48g,8g,45g,0g,140mg,20mg,280,3.5g,0g,0
+490,"Hazelnut Swirl Iced Cappuccino with Whole Milk, Small",,4g,32g,5g,30g,0g,95mg,15mg,190,2.5g,0g,0
+491,"Maple Pecan Swirl Iced Cappuccino with Skim Milk, Large",,0g,65g,11g,62g,0g,190mg,10mg,310,0g,0g,0
+492,"Maple Pecan Swirl Iced Cappuccino with Skim Milk, Medium",,0g,49g,8g,47g,0g,140mg,5mg,230,0g,0g,0
+493,"Maple Pecan Swirl Iced Cappuccino with Skim Milk, Small",,0g,33g,5g,31g,0g,95mg,5mg,160,0g,0g,0
+494,"Maple Pecan Swirl Iced Cappuccino with Whole Milk, Large",,8g,65g,10g,62g,0g,190mg,30mg,380,4.5g,0g,0
+495,"Maple Pecan Swirl Iced Cappuccino with Whole Milk, Medium",,6g,49g,8g,46g,0g,140mg,20mg,280,3.5g,0g,0
+496,"Maple Pecan Swirl Iced Cappuccino with Whole Milk, Small",,4g,33g,5g,31g,0g,95mg,15mg,190,2.5g,0g,0
+497,"Mocha Swirl Iced Cappuccino with Skim Milk, Large",,1g,63g,10g,57g,2g,160mg,5mg,300,0.5g,0g,0
+498,"Mocha Swirl Iced Cappuccino with Skim Milk, Medium",,1g,47g,8g,43g,2g,115mg,5mg,230,0g,0g,0
+499,"Mocha Swirl Iced Cappuccino with Skim Milk, Small",,0.5g,32g,5g,29g,1g,80mg,0mg,150,0g,0g,0
+500,"Mocha Swirl Iced Cappuccino with Whole Milk, Large",,9g,63g,10g,57g,2g,160mg,25mg,370,5g,0g,0
+501,"Mocha Swirl Iced Cappuccino with Whole Milk, Medium",,7g,47g,7g,43g,2g,120mg,20mg,280,4g,0g,0
+502,"Mocha Swirl Iced Cappuccino with Whole Milk, Small",,4.5g,31g,5g,28g,1g,80mg,10mg,180,2.5g,0g,0
+503,"Pumpkin Swirl Iced Cappuccino with Skim Milk, Large",,0g,62g,12g,60g,0g,240mg,5mg,300,0g,0g,0
+504,"Pumpkin Swirl Iced Cappuccino with Skim Milk, Medium",,0g,47g,9g,45g,0g,180mg,5mg,230,0g,0g,0
+505,"Pumpkin Swirl Iced Cappuccino with Skim Milk, Small",,0g,31g,6g,30g,0g,120mg,5mg,150,0g,0g,0
+506,"Pumpkin Swirl Iced Cappuccino with Whole Milk, Large",,8g,62g,11g,60g,0g,240mg,25mg,370,5g,0g,0
+507,"Pumpkin Swirl Iced Cappuccino with Whole Milk, Medium",,6g,46g,8g,45g,0g,180mg,20mg,280,3.5g,0g,0
+508,"Pumpkin Swirl Iced Cappuccino with Whole Milk, Small",,4g,31g,5g,30g,0g,125mg,15mg,180,2.5g,0g,0
+509,"Caramel Mocha Swirl Iced Latte with Milk, Large",,12g,70g,14g,67g,1g,240mg,55mg,450,8g,0g,0
+510,"Caramel Mocha Swirl Iced Latte with Milk, Medium",,9g,52g,11g,50g,1g,180mg,40mg,330,6g,0g,0
+511,"Caramel Mocha Swirl Iced Latte with Milk, Small",,6g,35g,7g,33g,1g,120mg,25mg,220,4g,0g,0
+512,"Caramel Mocha Swirl Iced Latte with Skim Milk, Large",,1g,70g,15g,68g,1g,210mg,10mg,350,0.5g,0g,0
+513,"Caramel Mocha Swirl Iced Latte with Skim Milk, Medium",,0.5g,53g,11g,51g,1g,150mg,5mg,260,0g,0g,0
+514,"Caramel Mocha Swirl Iced Latte with Skim Milk, Small",,0g,35g,7g,34g,1g,105mg,5mg,170,0g,0g,0
+515,"Caramel Swirl Iced Latte with Milk, Large",,12g,73g,14g,72g,0g,220mg,40mg,460,7g,0g,0
+516,"Caramel Swirl Iced Latte with Milk, Medium",,9g,55g,11g,54g,0g,160mg,30mg,350,5g,0g,0
+517,"Caramel Swirl Iced Latte with Milk, Small",,6g,37g,7g,37g,0g,110mg,20mg,230,3.5g,0g,0
+518,"Caramel Swirl Iced Latte with Skim Milk, Large",,0g,73g,15g,72g,0g,210mg,10mg,360,0g,0g,0
+519,"Caramel Swirl Iced Latte with Skim Milk, Medium",,0g,55g,11g,55g,0g,160mg,10mg,270,0g,0g,0
+520,"Caramel Swirl Iced Latte with Skim Milk, Small",,0g,38g,8g,37g,0g,110mg,5mg,190,0g,0g,0
+521,"French Vanilla Swirl Iced Latte with Skim Milk, Large",,0g,71g,15g,69g,0g,240mg,10mg,350,0g,0g,0
+522,"French Vanilla Swirl Iced Latte with Skim Milk, Medium",,0g,54g,11g,52g,0g,180mg,10mg,270,0g,0g,0
+523,"French Vanilla Swirl Iced Latte with Skim Milk, Small",,0g,36g,8g,35g,0g,120mg,5mg,180,0g,0g,0
+524,"French Vanilla Swirl Iced Latte with Whole Milk, Large",,12g,71g,14g,68g,0g,250mg,40mg,450,7g,0g,0
+525,"French Vanilla Swirl Iced Latte with Whole Milk, Medium",,9g,53g,11g,52g,0g,180mg,30mg,340,5g,0g,0
+526,"French Vanilla Swirl Iced Latte with Whole Milk, Small",,6g,36g,7g,35g,0g,125mg,20mg,230,3.5g,0g,0
+527,"Hazelnut Swirl Iced Latte with Skim Milk, Large",,0g,72g,15g,69g,0g,240mg,10mg,350,0g,0g,0
+528,"Hazelnut Swirl Iced Latte with Skim Milk, Medium",,0g,54g,11g,52g,0g,180mg,10mg,270,0g,0g,0
+529,"Hazelnut Swirl Iced Latte with Skim Milk, Small",,0g,37g,8g,35g,0g,120mg,5mg,180,0g,0g,0
+530,"Hazelnut Swirl Iced Latte with Whole Milk, Large",,12g,71g,14g,68g,0g,250mg,40mg,450,7g,0g,0
+531,"Hazelnut Swirl Iced Latte with Whole Milk, Medium",,9g,54g,11g,52g,0g,180mg,30mg,340,5g,0g,0
+532,"Hazelnut Swirl Iced Latte with Whole Milk, Small",,6g,36g,7g,35g,0g,125mg,20mg,230,3.5g,0g,0
+533,"Iced Latte with Almond Milk, Large",,4.5g,28g,2g,25g,2g,280mg,0mg,160,0g,0g,0
+534,"Iced Latte with Almond Milk, Medium",,3g,21g,1g,18g,1g,210mg,0mg,120,0g,0g,0
+535,"Iced Latte with Almond Milk, Small",,2g,14g,1g,12g,1g,140mg,0mg,80,0g,0g,$0.50
+536,"Iced Latte with Skim Milk, Large",,0g,20g,13g,20g,0g,190mg,10mg,140,0g,0g,0
+537,"Iced Latte with Skim Milk, Medium",,0g,15g,10g,15g,0g,140mg,5mg,100,0g,0g,0
+538,"Iced Latte with Skim Milk, Small",,0g,11g,7g,10g,0g,110mg,0mg,70,0g,0g,0
+539,"Iced Latte with Skim Milk and Sugar, Large",,0g,55g,13g,55g,0g,190mg,10mg,270,0g,0g,0
+540,"Iced Latte with Skim Milk and Sugar, Medium",,0g,41g,10g,41g,0g,140mg,5mg,200,0g,0g,0
+541,"Iced Latte with Skim Milk and Sugar, Small",,0g,28g,7g,27g,0g,110mg,0mg,130,0g,0g,0
+542,"Iced Latte with Whole Milk, Large",,12g,19g,12g,19g,0g,190mg,35mg,230,7g,0g,$3.99
+543,"Iced Latte with Whole Milk, Medium",,9g,14g,9g,14g,0g,140mg,25mg,170,5g,0g,$3.59
+544,"Iced Latte with Whole Milk, Small",,6g,10g,6g,10g,0g,105mg,25mg,120,3.5g,0g,$2.99
+545,"Iced Latte with Whole Milk and Sugar, Large",,12g,54g,12g,54g,0g,190mg,35mg,370,7g,0g,0
+546,"Iced Latte with Whole Milk and Sugar, Medium",,9g,40g,9g,40g,0g,140mg,25mg,280,5g,0g,0
+547,"Iced Latte with Whole Milk and Sugar, Small",,6g,27g,6g,27g,0g,100mg,25mg,170,3.5g,0g,0
+548,"Maple Pecan Swirl Iced Latte with Skim Milk, Large",,0g,75g,15g,71g,0g,250mg,10mg,370,0g,0g,0
+549,"Maple Pecan Swirl Iced Latte with Skim Milk, Medium",,0g,57g,11g,54g,0g,180mg,10mg,280,0g,0g,0
+550,"Maple Pecan Swirl Iced Latte with Skim Milk, Small",,0g,38g,8g,37g,0g,125mg,5mg,190,0g,0g,0
+551,"Maple Pecan Swirl Iced Latte with Whole Milk, Large",,12g,74g,14g,70g,0g,250mg,40mg,470,7g,0g,0
+552,"Maple Pecan Swirl Iced Latte with Whole Milk, Medium",,9g,56g,11g,53g,0g,190mg,30mg,350,5g,0g,0
+553,"Maple Pecan Swirl Iced Latte with Whole Milk, Small",,6g,38g,7g,36g,0g,125mg,20mg,240,3.5g,0g,0
+554,"Mocha Swirl Iced Latte with Milk, Large",,13g,72g,13g,67g,2g,220mg,35mg,460,7g,0g,0
+555,"Mocha Swirl Iced Latte with Milk, Medium",,10g,54g,10g,51g,2g,160mg,25mg,350,6g,0g,0
+556,"Mocha Swirl Iced Latte with Milk, Small",,6g,37g,7g,34g,1g,110mg,20mg,230,3.5g,0g,0
+557,"Mocha Swirl Iced Latte with Skim Milk, Large",,1.5g,73g,14g,67g,2g,210mg,5mg,360,1g,0g,0
+558,"Mocha Swirl Iced Latte with Skim Milk, Medium",,1g,55g,11g,51g,2g,160mg,5mg,270,0.5g,0g,0
+559,"Mocha Swirl Iced Latte with Skim Milk, Small",,0.5g,37g,7g,35g,1g,105mg,5mg,180,0g,0g,0
+560,"Pumpkin Swirl Iced Latte with Skim Milk, Large",,0.5g,71g,16g,70g,0g,300mg,10mg,360,0g,0g,0
+561,"Pumpkin Swirl Iced Latte with Skim Milk, Medium",,0g,54g,12g,53g,0g,230mg,5mg,270,0g,0g,0
+562,"Pumpkin Swirl Iced Latte with Skim Milk, Small",,0g,37g,8g,36g,0g,150mg,5mg,180,0g,0g,0
+563,"Pumpkin Swirl Iced Latte with Whole Milk, Large",,12g,70g,15g,69g,0g,300mg,40mg,450,7g,0g,0
+564,"Pumpkin Swirl Iced Latte with Whole Milk, Medium",,9g,53g,11g,52g,0g,230mg,30mg,340,5g,0g,0
+565,"Pumpkin Swirl Iced Latte with Whole Milk, Small",,6g,36g,8g,36g,0g,150mg,20mg,230,3.5g,0g,0
+566,"Caramel Swirl Iced Macchiato with Skim Milk, Large",,0g,66g,11g,65g,0g,160mg,10mg,310,0g,0g,0
+567,"Caramel Swirl Iced Macchiato with Skim Milk, Medium",,0g,49g,8g,49g,0g,125mg,5mg,240,0g,0g,0
+568,"Caramel Swirl Iced Macchiato with Skim Milk, Small",,0g,33g,6g,33g,0g,85mg,5mg,160,0g,0g,0
+569,"Caramel Swirl Iced Macchiato with Whole Milk, Large",,8g,65g,10g,64g,0g,170mg,30mg,380,4.5g,0g,0
+570,"Caramel Swirl Iced Macchiato with Whole Milk, Medium",,6g,49g,8g,49g,0g,125mg,20mg,290,3.5g,0g,0
+571,"Caramel Swirl Iced Macchiato with Whole Milk, Small",,4g,33g,5g,33g,0g,85mg,15mg,190,2.5g,0g,0
+572,"French Vanilla Swirl Iced Macchiato with Skim Milk, Large",,0g,66g,11g,61g,0g,190mg,10mg,310,0g,0g,0
+573,"French Vanilla Swirl Iced Macchiato with Skim Milk, Medium",,0g,49g,8g,46g,0g,140mg,5mg,240,0g,0g,0
+574,"French Vanilla Swirl Iced Macchiato with Skim Milk, Small",,0g,33g,6g,30g,0g,100mg,5mg,160,0g,0g,0
+575,"French Vanilla Swirl Iced Macchiato with Whole Milk, Large",,8g,65g,10g,60g,0g,190mg,30mg,380,4.5g,0g,0
+576,"French Vanilla Swirl Iced Macchiato with Whole Milk, Medium",,6g,49g,8g,45g,0g,150mg,20mg,280,3.5g,0g,0
+577,"French Vanilla Swirl Iced Macchiato with Whole Milk, Small",,4g,33g,5g,30g,0g,100mg,15mg,190,2.5g,0g,0
+578,"Hazelnut Swirl Iced Macchiato with Skim Milk, Large",,0g,66g,11g,61g,0g,190mg,10mg,310,0g,0g,0
+579,"Hazelnut Swirl Iced Macchiato with Skim Milk, Medium",,0g,50g,8g,46g,0g,140mg,5mg,240,0g,0g,0
+580,"Hazelnut Swirl Iced Macchiato with Skim Milk, Small",,0g,33g,6g,30g,0g,100mg,5mg,160,0g,0g,0
+581,"Hazelnut Swirl Iced Macchiato with Whole Milk, Large",,8g,65g,10g,60g,0g,190mg,30mg,380,4.5g,0g,0
+582,"Hazelnut Swirl Iced Macchiato with Whole Milk, Medium",,6g,49g,8g,45g,0g,150mg,20mg,290,3.5g,0g,0
+583,"Hazelnut Swirl Iced Macchiato with Whole Milk, Small",,4g,33g,5g,30g,0g,100mg,15mg,190,2.5g,0g,0
+584,"Iced Macchiato with Skim Milk, Large",,0g,14g,8g,14g,0g,135mg,5mg,100,0g,0g,0
+585,"Iced Macchiato with Skim Milk, Medium",,0g,11g,6g,11g,0g,100mg,5mg,70,0g,0g,0
+586,"Iced Macchiato with Skim Milk, Small",,0g,8g,4g,8g,0g,70mg,0mg,50,0g,0g,0
+587,"Iced Macchiato with Whole Milk, Large",,8g,14g,8g,14g,0g,135mg,25mg,160,4.5g,0g,0
+588,"Iced Macchiato with Whole Milk, Medium",,6g,11g,6g,11g,0g,100mg,20mg,120,3.5g,0g,0
+589,"Iced Macchiato with Whole Milk, Small",,4g,7g,4g,7g,0g,70mg,10mg,80,2.5g,0g,0
+590,"Maple Pecan Swirl Iced Macchiato with Skim Milk, Large",,0g,67g,11g,63g,0g,190mg,10mg,320,0g,0g,0
+591,"Maple Pecan Swirl Iced Macchiato with Skim Milk, Medium",,0g,51g,8g,47g,0g,150mg,5mg,240,0g,0g,0
+592,"Maple Pecan Swirl Iced Macchiato with Skim Milk, Small",,0g,34g,6g,31g,0g,100mg,5mg,160,0g,0g,0
+593,"Maple Pecan Swirl Iced Macchiato with Whole Milk, Large",,8g,67g,10g,62g,0g,200mg,30mg,390,4.5g,0g,0
+594,"Maple Pecan Swirl Iced Macchiato with Whole Milk, Medium",,6g,50g,8g,47g,0g,150mg,20mg,290,3.5g,0g,0
+595,"Maple Pecan Swirl Iced Macchiato with Whole Milk, Small",,4g,34g,5g,31g,0g,100mg,15mg,200,2.5g,0g,0
+596,"Mocha Swirl Iced Macchiato with Skim Milk, Large",,1g,65g,10g,58g,2g,160mg,5mg,310,0.5g,0g,0
+597,"Mocha Swirl Iced Macchiato with Skim Milk, Medium",,1g,49g,8g,43g,2g,120mg,5mg,240,0.5g,0g,0
+598,"Mocha Swirl Iced Macchiato with Skim Milk, Small",,0.5g,33g,5g,29g,1g,85mg,0mg,160,0g,0g,0
+599,"Mocha Swirl Iced Macchiato with Whole Milk, Large",,9g,65g,10g,58g,2g,160mg,25mg,380,5g,0g,0
+600,"Mocha Swirl Iced Macchiato with Whole Milk, Medium",,7g,49g,7g,43g,2g,125mg,20mg,280,4g,0g,0
+601,"Mocha Swirl Iced Macchiato with Whole Milk, Small",,4.5g,33g,5g,29g,1g,85mg,10mg,190,2.5g,0g,0
+602,"Pumpkin Swirl Iced Macchiato with Skim Milk, Large",,0.5g,66g,12g,63g,0g,250mg,5mg,320,0g,0g,0
+603,"Pumpkin Swirl Iced Macchiato with Skim Milk, Medium",,0g,50g,9g,47g,0g,190mg,5mg,240,0g,0g,0
+604,"Pumpkin Swirl Iced Macchiato with Skim Milk, Small",,0g,33g,6g,31g,0g,130mg,5mg,160,0g,0g,0
+605,"Pumpkin Swirl Iced Macchiato with Whole Milk, Large",,8g,66g,11g,62g,0g,250mg,25mg,390,5g,0g,0
+606,"Pumpkin Swirl Iced Macchiato with Whole Milk, Medium",,6g,49g,8g,47g,0g,190mg,20mg,290,3.5g,0g,0
+607,"Pumpkin Swirl Iced Macchiato with Whole Milk, Small",,4g,33g,6g,31g,0g,130mg,15mg,200,2.5g,0g,0
+608,"Iced Apple Cider, Large (Regional",,0g,66g,0g,66g,0g,140mg,0mg,260,0g,0g,0
+609,"Iced Apple Cider, Medium (Regional",,0g,45g,0g,45g,0g,95mg,0mg,180,0g,0g,0
+610,"Iced Apple Cider, Small (Regional",,0g,31g,0g,31g,0g,65mg,0mg,120,0g,0g,0
+611,"Iced Green Tea Sweetened, Large",,0g,36g,0g,34g,0g,10mg,0mg,140,0g,0g,0
+612,"Iced Green Tea Sweetened, Medium",,0g,27g,0g,25g,0g,5mg,0mg,110,0g,0g,0
+613,"Iced Green Tea Sweetened, Small",,0g,18g,0g,17g,0g,0mg,0mg,70,0g,0g,0
+614,"Iced Green Tea Unsweetened, Large",,0g,2g,0g,0g,0g,10mg,0mg,10,0g,0g,$2.49
+615,"Iced Green Tea Unsweetened, Medium",,0g,2g,0g,0g,0g,5mg,0mg,5,0g,0g,$1.99
+616,"Iced Green Tea Unsweetened, Small",,0g,1g,0g,0g,0g,0mg,0mg,5,0g,0g,$1.49
+617,"Iced Tea Sweetened, Large",,0g,36g,0g,34g,0g,10mg,0mg,140,0g,0g,$3.99
+618,"Iced Tea Sweetened, Medium",,0g,27g,0g,25g,0g,5mg,0mg,110,0g,0g,$3.59
+619,"Iced Tea Sweetened, Small",,0g,18g,0g,17g,0g,0mg,0mg,70,0g,0g,$2.99
+620,"Iced Tea Sweetened Blueberry Flavored Tea, Large",,0g,39g,0g,34g,0g,10mg,0mg,160,0g,0g,0
+621,"Iced Tea Sweetened Blueberry Flavored Tea, Medium",,0g,29g,0g,25g,0g,5mg,0mg,120,0g,0g,0
+622,"Iced Tea Sweetened Blueberry Flavored Tea, Small",,0g,20g,0g,17g,0g,0mg,0mg,80,0g,0g,0
+623,"Iced Tea Sweetened Raspberry Flavored, Large",,0g,40g,0g,34g,0g,10mg,0mg,160,0g,0g,0
+624,"Iced Tea Sweetened Raspberry Flavored, Medium",,0g,29g,0g,25g,0g,5mg,0mg,120,0g,0g,0
+625,"Iced Tea Sweetened Raspberry Flavored, Small",,0g,20g,0g,17g,0g,0mg,0mg,80,0g,0g,0
+626,"Iced Tea Unsweetened, Large",,0g,2g,0g,0g,0g,10mg,0mg,10,0g,0g,0
+627,"Iced Tea Unsweetened, Medium",,0g,2g,0g,0g,0g,5mg,0mg,5,0g,0g,0
+628,"Iced Tea Unsweetened, Small",,0g,1g,0g,0g,0g,0mg,0mg,5,0g,0g,0
+629,"Iced Tea Unsweetened Blueberry Flavored Tea, Large",,0g,6g,0g,0g,0g,10mg,0mg,25,0g,0g,0
+630,"Iced Tea Unsweetened Blueberry Flavored Tea, Medium",,0g,4g,0g,0g,0g,5mg,0mg,15,0g,0g,0
+631,"Iced Tea Unsweetened Blueberry Flavored Tea, Small",,0g,3g,0g,0g,0g,0mg,0mg,10,0g,0g,0
+632,"Iced Tea Unsweetened Raspberry Flavored, Large",,0g,6g,0g,0g,0g,10mg,0mg,25,0g,0g,0
+633,"Iced Tea Unsweetened Raspberry Flavored, Medium",,0g,4g,0g,0g,0g,5mg,0mg,20,0g,0g,0
+634,"Iced Tea Unsweetened Raspberry Flavored, Small",,0g,3g,0g,0g,0g,0mg,0mg,10,0g,0g,0
+635,"Sweet Tea, Large",,0g,80g,0g,78g,0g,10mg,0mg,310,0g,0g,$2.29
+636,"Sweet Tea, Medium",,0g,60g,0g,58g,0g,5mg,0mg,230,0g,0g,$1.89
+637,"Sweet Tea, Small",,0g,40g,0g,39g,0g,5mg,0mg,160,0g,0g,$1.59
+638,"Sweet Tea Blueberry Flavored, Large",,0g,87g,0g,81g,0g,10mg,0mg,340,0g,0g,0
+639,"Sweet Tea Blueberry Flavored, Medium",,0g,65g,0g,60g,0g,5mg,0mg,250,0g,0g,$3.19
+640,"Sweet Tea Blueberry Flavored, Small",,0g,43g,0g,40g,0g,5mg,0mg,170,0g,0g,0
+641,"Sweet Tea Raspberry Flavored, Large",,0g,87g,0g,81g,0g,10mg,0mg,340,0g,0g,0
+642,"Sweet Tea Raspberry Flavored, Medium",,0g,65g,0g,60g,0g,5mg,0mg,250,0g,0g,0
+643,"Sweet Tea Raspberry Flavored, Small",,0g,43g,0g,40g,0g,5mg,0mg,170,0g,0g,0
+644,Milk Chocolate Hot Cocoa K-Cup Pod,,3g,10g,1g,7g,1g,210mg,0mg,70,2.5g,0g,0
+645,Kolache,,18g,41g,20g,12g,1g,500mg,40mg,370,6g,0g,0
+646,Kosher Belgian Waffle Breakfast Sandwich with Maple Sugar Bacon,,22g,43g,18g,14g,2g,1140mg,190mg,440,6g,0g,0
+647,Kosher Big n' Toasted,,36g,44g,25g,3g,2g,1290mg,340mg,610,10g,0g,0
+648,Kosher Dunkin' Double Veggie Sausage Sandwich,,18g,74g,37g,7g,6g,1460mg,180mg,600,6g,0g,0
+649,Kosher Egg & Cheese Wake Up Wrap,,10g,14g,7g,1g,0g,410mg,95mg,170,4g,0g,0
+650,Kosher Egg White and Cheese on an English Muffin,,6g,37g,15g,4g,1g,740mg,15mg,270,3g,0g,0
+651,Kosher Grilled Cheese (Regional),,23g,36g,17g,3g,0g,840mg,55mg,420,12g,0g,0
+652,Kosher Grilled Cheese with Veggie Bacon (Regional),,27g,38g,19g,3g,1g,1080mg,55mg,480,12g,0g,0
+653,Kosher Maple Sugar Bacon Breakfast Sandwich,,39g,50g,18g,11g,3g,1050mg,180mg,630,14g,0g,0
+654,Kosher Maple Sugar Bacon Wake-Up Wrap,,14g,19g,9g,4g,1g,650mg,95mg,240,4.5g,0g,0
+655,Kosher Tuna Melt on a Croissant,,34g,43g,22g,6g,2g,600mg,45mg,570,14g,0g,$3.69
+656,Kosher Tuna Salad on a Plain Bagel,,9g,69g,21g,6g,5g,840mg,20mg,440,1g,0g,$3.49
+657,Kosher Veggie Bacon and Veggie Sausage Croissant Sandwich,,37g,46g,25g,6g,3g,1070mg,180mg,620,14g,0g,$3.09
+658,Kosher Veggie Bacon and Veggie Sausage Wake-Up Wrap,,13g,17g,12g,1g,1g,660mg,95mg,240,4.5g,0g,0
+659,Kosher Veggie Bacon Egg and Cheese on a Plain Bagel,,17g,68g,21g,6g,5g,1190mg,180mg,510,5g,0g,0
+660,Kosher Veggie Bacon Wake-Up Wrap,,12g,15g,8g,1g,1g,530mg,95mg,200,4.5g,0g,0
+661,Kosher Veggie Sausage Egg and Cheese on a Croissant,,33g,44g,23g,6g,2g,840mg,180mg,570,13g,0g,0
+662,Kosher Veggie Sausage Wake-Up Wrap,,11g,16g,11g,1g,1g,540mg,95mg,210,4g,0g,0
+663,Blueberry Muffin,,15g,76g,6g,43g,2g,390mg,60mg,460,3g,0g,0
+664,Chocolate Chip Muffin,,21g,83g,7g,50g,2g,400mg,60mg,550,6g,0g,0
+665,Coffee Cake Muffin,,24g,87g,7g,51g,2g,420mg,65mg,590,8g,0g,0
+666,Corn Muffin,,16g,72g,7g,30g,1g,680mg,65mg,460,3g,0g,$5.99
+667,Pumpkin Muffin,,24g,77g,6g,40g,2g,400mg,50mg,550,5g,0g,0
+668,Butternut Munchkin,,3.5g,12g,1g,8g,0g,50mg,5mg,90,2g,0g,0
+669,Cinnamon Munchkin,,3.5g,7g,1g,2g,0g,50mg,5mg,60,1.5g,0g,0
+670,Glazed Blueberry Munchkin,,3.5g,9g,1g,5g,0g,70mg,5mg,70,1.5g,0g,0
+671,Glazed Chocolate Munchkin,,3.5g,8g,1g,4g,0g,95mg,0mg,70,1.5g,0g,0
+672,Glazed Munchkin,,4g,7g,1g,3g,0g,80mg,0mg,70,2g,0g,0
+673,Glazed Old Fashioned Munchkin,,3.5g,9g,1g,4g,0g,50mg,5mg,70,1.5g,0g,0
+674,Jelly Munchkin,,4g,9g,1g,4g,0g,85mg,0mg,70,2g,0g,$8.99
+675,Old Fashioned Munchkin,,3.5g,6g,1g,2g,0g,50mg,5mg,60,1.5g,0g,0
+676,Powdered Munchkin,,3.5g,7g,1g,3g,0g,50mg,5mg,60,1.5g,0g,0
+677,Pumpkin Munchkin,,4g,9g,1g,4g,0g,80mg,5mg,70,2g,0g,0
+678,Multigrain Brown Sugar Oatmeal with Dried Fruit Topping,,2g,66g,5g,35g,7g,250mg,0mg,310,0g,0g,0
+679,Biscuit,,14g,32g,5g,2g,1g,640mg,10mg,270,9g,0g,0
+680,English Muffin,,2g,34g,6g,3g,1g,250mg,0mg,180,0g,0g,0
+681,Gluten Free Fudge Brownie,,16g,48g,3g,34g,2g,240mg,60mg,350,2g,0g,0
+682,Plain Croissant,,18g,38g,6g,6g,0g,250mg,0mg,340,8g,0g,$1.49
+683,Pretzel Bites with Mustard,,2g,35g,7g,1g,1g,1430mg,0mg,190,0.5g,0g,0
+684,All You Can Meat Breakfast Sandwich,,56g,42g,31g,7g,1g,1540mg,235mg,800,21g,0g,$3.99
+685,All You Can Meat Wake-Up Wrap,,23g,15g,15g,1g,1g,920mg,125mg,330,8g,0g,0
+686,"Bacon, Egg & Cheese on a Plain Bagel",,18g,66g,23g,6g,4g,1170mg,185mg,520,6g,0g,$5.79
+687,"Bacon, Egg & Cheese on Croissant",,35g,41g,19g,6g,1g,800mg,185mg,560,14g,0g,$3.49
+688,"Bacon, Egg & Cheese on English Muffin",,19g,37g,18g,4g,1g,800mg,185mg,390,6g,0g,0
+689,"Bacon, Egg & Cheese Wake-Up Wrap",,13g,15g,9g,1g,1g,550mg,100mg,210,5g,0g,$3.29
+690,Belgian Waffle Breakfast Sandwich with Maple Sugar Bacon,,23g,40g,22g,15g,1g,1040mg,210mg,460,8g,0g,$6.19
+691,Big n' Toasted (Regional),,38g,41g,29g,3g,0g,1200mg,360mg,620,12g,0g,$14.99
+692,"Biscuit, Bacon, Fried Egg and Cheese",,31g,34g,17g,2g,1g,1180mg,195mg,490,15g,0g,$16.99
+693,Chicken Biscuit,,22g,46g,21g,3g,1g,1080mg,45mg,460,11g,0g,$2.99
+694,Chicken Croissant Sandwich (Regional),,40g,54g,29g,8g,1g,1200mg,65mg,690,15g,0g,$5.99
+695,Double Sausage Breakfast Sandwich,,53g,68g,35g,7g,5g,1970mg,250mg,890,19g,0g,0
+696,Egg & Cheese on a Plain Bagel,,13g,66g,19g,6g,4g,1010mg,175mg,460,5g,0g,$1.39
+697,Egg & Cheese on Croissant,,31g,40g,15g,6g,1g,640mg,175mg,500,13g,0g,0
+698,Egg & Cheese on English Muffin,,15g,37g,14g,4g,1g,640mg,175mg,340,5g,0g,0
+699,Grilled Cheese (Regional),,24g,37g,17g,3g,0g,960mg,50mg,430,11g,0g,$2.99
+700,Grilled Cheese with Bacon (Regional),,29g,37g,21g,3g,0g,1120mg,60mg,490,13g,0g,0
+701,Grilled Cheese with Ham (Regional),,25g,38g,22g,4g,0g,1220mg,60mg,460,12g,0g,$5.99
+702,"Ham, Egg & Cheese on a Plain Bagel",,14g,67g,24g,7g,4g,1270mg,190mg,490,5g,0g,0
+703,"Ham, Egg & Cheese on Croissant",,32g,41g,19g,7g,1g,900mg,190mg,530,13g,0g,0
+704,"Ham, Egg & Cheese on English Muffin",,15g,37g,19g,4g,1g,900mg,190mg,360,5g,0g,$5.59
+705,Ham and Cheese Rollups,,13g,27g,13g,2g,1g,1050mg,40mg,280,6g,0g,0
+706,Maple Sugar Bacon Breakfast Sandwich,,40g,47g,22g,12g,2g,960mg,195mg,640,16g,0g,$3.69
+707,Maple Sugar Bacon Wake-Up Wrap,,15g,18g,11g,4g,1g,630mg,105mg,250,6g,0g,0
+708,"Sausage, Egg & Cheese on a Plain Bagel",,33g,68g,27g,7g,4g,1490mg,215mg,680,12g,0g,0
+709,"Sausage, Egg & Cheese on Croissant",,51g,41g,22g,6g,1g,1120mg,215mg,710,20g,0g,$5.79
+710,"Sausage, Egg & Cheese on English Muffin",,34g,37g,22g,4g,1g,1120mg,215mg,550,12g,0g,0
+711,"Sausage, Egg & Cheese Wake-Up Wrap",,20g,15g,11g,1g,1g,710mg,115mg,290,8g,0g,0
+712,Sausage Biscuit,,34g,32g,13g,2g,1g,1120mg,45mg,490,16g,0g,0
+713,Spam Breakfast Sandwich,,42g,42g,20g,7g,1g,1210mg,200mg,630,16g,0g,$3.69
+714,Turkey Sausage Sandwich on English Muffin,,21g,37g,25g,4g,1g,1110mg,240mg,450,7g,0g,$5.79
+715,Veggie Egg White Sandwich on an English Muffin,,10g,38g,15g,4g,1g,730mg,20mg,310,5g,0g,0
+716,Waffle Breaded Chicken Tenders,,15g,19g,19g,2g,0g,650mg,45mg,290,3g,0g,0
+717,"Extra Thick Shake, Chocolate",,20g,92g,19g,85g,3g,320mg,70mg,620,13g,0.5g,0
+718,"Extra Thick Shake, Coffee",,19g,55g,18g,51g,1g,310mg,70mg,460,12g,0.5g,0
+719,"Extra Thick Shake, Vanilla",,19g,54g,18g,51g,1g,300mg,70mg,460,12g,0.5g,0
+720,Frozen Coffee Float,,15g,50g,8g,47g,1g,170mg,55mg,360,9g,0.5g,$4.99
+721,M&M Mix-In,,27g,89g,16g,82g,3g,270mg,60mg,660,17g,0.5g,0
+722,Orep Mix-In,,21g,70g,14g,55g,2g,360mg,55mg,510,11g,0.5g,0
+723,Soft Serve Cone,,9g,35g,9g,27g,1g,160mg,35mg,260,6g,0g,0
+724,Strawberry Coolatta Float,,6g,56g,6g,54g,1g,105mg,25mg,300,4g,0g,0
+725,"Turbo Shot, Small",,0g,1g,0g,0g,0g,5mg,0mg,5,0g,0g,0
