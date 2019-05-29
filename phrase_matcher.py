@@ -84,7 +84,7 @@ def main():
 
 	for i in range(0,len(restaurant_names)):
 		restaurant = restaurant_names[i]
-		print('Processing info from resaturant - ', restaurant)
+		print('Processing info from restaurant - ', restaurant)
 		# Reading NutritionData of a restaurant
 		df_Nd = pd.read_csv(Nd+'/'+restaurant+'_'+Nd+ext, encoding = 'iso-8859-1') #reading the csv file and storing as DataFrame
 		# Reading PriceData of a restaurant
@@ -96,9 +96,8 @@ def main():
 		df_map = map_list_to_list(Item_Pd, Item_Nd)
 		df_Nd = add_price_column(df_Nd, df_map, df_Pd)
 		# Writing dataframe to csv file
-		df_Nd.to_csv(folder + '/' + restaurant + '_' + Nd + ext)
+		df_Nd.to_csv(folder + '/' + restaurant + '_' + Nd + ext, index=False)
 
 if __name__ == '__main__':
 	main()
-
 
