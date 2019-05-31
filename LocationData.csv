@@ -1,0 +1,61 @@
+Restaurant,State,Number of Outlets
+Subway,AL,446
+Subway,NY,1020
+Subway,CA,2522
+Subway,TX,2154
+Wendy's,CA,271
+Wendy's,AL,99
+Wendy's,NY,214
+Wendy's,TX,402
+McDonald's,AL,245
+McDonald's,NY,617
+McDonald's,CA,1284
+McDonald's,TX,1190
+Pizza Hut,AL,152
+Pizza Hut,NY,204
+Pizza Hut,CA,682
+Pizza Hut,TX,834
+Burger King,AL,168
+Burger King,CA,573
+Burger King,NY,344
+Burger King,TX,548
+Dunkin' Donuts,CA,102
+Dunkin' Donuts,AL,37
+Dunkin' Donuts,NY,1497
+Dunkin' Donuts,TX,161
+Panera Bread,AL,27
+Panera Bread,CA,190
+Panera Bread,TX,107
+Panera Bread,NY,114
+KFC,CA,461
+KFC,AL,107
+KFC,TX,287
+KFC,NY,157
+Whataburger,AL,16
+Whataburger,TX,676
+Whataburger,CA,0
+Whataburger,NY,0
+Carl's Jr.,AL,0
+Carl's Jr.,TX,61
+Carl's Jr.,NY,2
+Carl's Jr.,CA,823
+Jack in the Box,AL,0
+Jack in the Box,TX,601
+Jack in the Box,NY,0
+Jack in the Box,CA,940
+Arby's,CA,86
+Arby's,AL,97
+Arby's,TX,162
+Arby's,NY,74
+Chick-fil-A,AL,82
+Chick-fil-A,NY,19
+Chick-fil-A,TX,406
+Chick-fil-A,CA,120
+Domino's Pizza,AL,127
+Domino's Pizza,CA,499
+Domino's Pizza,NY,232
+Domino's Pizza,TX,880
+Panda Express,AL,24
+Panda Express,CA,563
+Panda Express,NY,14
+Panda Express,TX,264
