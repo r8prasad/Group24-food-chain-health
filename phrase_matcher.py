@@ -74,10 +74,13 @@ def main():
 	3. Save the new dataframe with price column as a csv in a new folder
 	'''
 	Nd = 'NutritionData'
+	Nd_folder = 'Merged_CSV'
+	extra_str = '_Clean_Merged'
 	Pd = 'PriceData'
+	Pd_folder = 'PriceData'
 	ext = '.csv'
 	folder = 'NutritionDataWithPrice'
-	restaurant_names = os.listdir('NutritionData')
+	restaurant_names = os.listdir(Nd_folder)
 	restaurant_names = [name.split('_')[0] for name in restaurant_names]
 	assert len(restaurant_names) > 0, 'Need to have atleast one restaurant csv file!'
 	# print(restaurant_names)
@@ -86,9 +89,9 @@ def main():
 		restaurant = restaurant_names[i]
 		print('Processing info from restaurant - ', restaurant)
 		# Reading NutritionData of a restaurant
-		df_Nd = pd.read_csv(Nd+'/'+restaurant+'_'+Nd+ext, encoding = 'iso-8859-1') #reading the csv file and storing as DataFrame
+		df_Nd = pd.read_csv(Nd_folder+'/'+restaurant+'_'+Nd+extra_str+ext, encoding = 'iso-8859-1') #reading the csv file and storing as DataFrame
 		# Reading PriceData of a restaurant
-		df_Pd = pd.read_csv(Pd+'/'+restaurant+'_'+Pd+ext, encoding = 'iso-8859-1') #reading the csv file and storing as DataFrame
+		df_Pd = pd.read_csv(Pd_folder+'/'+restaurant+'_'+Pd+ext, encoding = 'iso-8859-1') #reading the csv file and storing as DataFrame
 		# Extracting the Items from dataFrame as a list
 		Item_Nd = list(df_Nd['Item'])
 		Item_Pd = list(df_Pd['Item'])
@@ -96,7 +99,7 @@ def main():
 		df_map = map_list_to_list(Item_Pd, Item_Nd)
 		df_Nd = add_price_column(df_Nd, df_map, df_Pd)
 		# Writing dataframe to csv file
-		df_Nd.to_csv(folder + '/' + restaurant + '_' + Nd + ext, index=False)
+		df_Nd.to_csv(Nd_folder + 'With' + Pd + '/' + restaurant + '_'+Nd+extra_str+ext, index=False)
 
 if __name__ == '__main__':
 	main()
