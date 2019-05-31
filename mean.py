@@ -10,8 +10,7 @@ def get_means():
 	This function assumes that all csv files are in one folder. It uses the os library to read all file names
 	and run the code on each. Moreover, it replaces all NaN with 0
 	'''
-	all_restaurants = os.listdir()
-	all_restaurants.remove('mean.py')
+	all_restaurants = os.listdir('NutritionData')
 	assert len(all_restaurants) > 0, 'Need to have atleast one restaurant csv file!'
 	df_mean = pd.DataFrame()
 
