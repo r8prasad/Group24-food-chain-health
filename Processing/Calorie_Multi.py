@@ -6,15 +6,13 @@ Created on Mon May 27 17:06:03 2019
 """
 import pandas as pd
 import numpy as np
-from BurgerKing_processing import *
 
-def calories_choices(df):
+def ulti(df,fname):
     """
     This function returns the 5 best possible combinations from a particular restaurant which roughly
     satisfy the 2000 calories a day criterion
     """
     assert isinstance(df,pd.DataFrame)
-    
     calories = df['Calories'].tolist()
     probs = np.asarray(calories)
     dummy = probs
@@ -35,18 +33,28 @@ def calories_choices(df):
     data = pd.DataFrame(list_item)
     data.columns = ['Item 1','Item 2','Item 3']
     df = df.set_index('Item')
+    
     #Finding the metric for each combination
     list_metric = []
+    final_price = []
+    list_price= []
     final_metric = []
     met = 0
     for index,each in data.iterrows():
         for element in each:
-            met = metric(df.loc[element]).sum()
+            met = df.loc[element,'Fat Metric'] + df.loc[element,'Carbs Metric'] + df.loc[element,'Cholesterol Metric']
+            price = df.loc[element,'Price']
             list_metric.append(met)
-        final_metric.append(sum(list_metric))
+            list_price.append(float(price))
+        final_metric.append(round(sum(list_metric),5))
+        final_price.append(sum(list_price))
         list_metric = []
+        list_price = []
     #Sorting accoridng to the metric column
     data['Metric'] = pd.Series(final_metric)
-    data = data.sort_values('Metric',ascending = False)
+    data['Price'] = pd.Series(final_price)
+    data = data.sort_values('Metric')
+    data = data.drop_duplicates(subset = 'Metric')
     
+    data.to_csv(f"metric_merged\{fname}_Merged.csv", encoding = 'iso-8859-1', index=False)
     return data
