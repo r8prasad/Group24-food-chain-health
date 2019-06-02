@@ -1,8 +1,9 @@
 """
-Created on Sun May 26 2019
+Created on Sun June 2 2019
 
 @author: adnan
 """
+
 
 import pandas as pd
 import numpy as np
@@ -23,8 +24,8 @@ def map_list_to_list(s1_list,s2_list):
 
 	dict_map = {}
 	for s1 in s1_list:
-		s2 = map_str_to_list(s1,s2_list)
-		dict_map[s1] = s2
+		s2, s2_ratio = map_str_to_list(s1,s2_list)
+		dict_map[s1] = [s2, s2_ratio]
 
 	df_map = pd.Series(dict_map, index=dict_map.keys())
 	# df_map = pd.Series.to_frame(df_map)
@@ -43,25 +44,27 @@ def map_str_to_list(s1,s2_list):
 	s1_ratio = [SequenceMatcher(None, s1, s2).ratio() for s2 in s2_list]
 	ind_max = max(zip(s1_ratio, range(len(s1_ratio))))[1]
 
-	return s2_list[ind_max]
+	return s2_list[ind_max], s1_ratio[ind_max]
 
 def add_price_column(df_Nd, df_map, df_Pd):
 	'''
 	Adds a new "Price" column to the Nutrition Data Dataframe and fills it in using the information from price data Dataframe
-	df_map[i] = NutritionData
-	df_map.keys()[i] = PriceData
+	df_map[i] = PriceData
+	df_map.keys()[i] = NutritionData
 	'''
 	assert isinstance(df_Nd, pd.DataFrame)
 	assert isinstance(df_Pd, pd.DataFrame)
 	assert isinstance(df_map, pd.Series)
 
 	# Add "Price" column to the Nutrition Dataframe
-	df_Nd['Price'] = 0
+	df_Nd['Price'] = 0.0
+	# df_Nd['Ratio_match'] = 0.0
 
 	for i in range(0, len(df_map.index)):#len(df_map.index)):
 		# Extracting the item name from the ith row of df_map
-		item_Nd = df_map[i]
-		item_Pd = df_map.keys()[i]
+		item_Nd = df_map.keys()[i]
+		item_Pd = df_map[i][0]
+		item_ratio = df_map[i][1] #ratio of match from Nutrition Data to Price Data
 		# Finding row index of the item in Nutrition Data
 		index_Nd = df_Nd[df_Nd['Item'] == item_Nd].index.tolist()[0]
 		index_Pd = df_Pd[df_Pd['Item'] == item_Pd].index.tolist()[0]
@@ -69,7 +72,7 @@ def add_price_column(df_Nd, df_map, df_Pd):
 		item_price = df_Pd['Price'][index_Pd]
 		# Writing Price in Nutrition Data
 		df_Nd['Price'][index_Nd] = item_price
-	
+		# df_Nd['Ratio_match'][index_Nd] = item_ratio 
 	return df_Nd
 
 def main():
@@ -101,10 +104,10 @@ def main():
 		# Extracting the Items from dataFrame as a list
 		Item_Nd = list(df_Nd['Item'])
 		Item_Pd = list(df_Pd['Item'])
-		# Map items from Price Data to Nutrition Data
-		df_map = map_list_to_list(Item_Pd, Item_Nd)
+		# Map items from Nutrition Data to Price Data so every item has a price
+		df_map = map_list_to_list(Item_Nd, Item_Pd)
 		df_Nd = add_price_column(df_Nd, df_map, df_Pd)
-		# Writing dataframe to csv file
+		# # Writing dataframe to csv file
 		df_Nd.to_csv(Nd_folder + 'With' + Pd + '/' + restaurant + '_'+Nd+extra_str+ext, index=False)
 
 if __name__ == '__main__':
