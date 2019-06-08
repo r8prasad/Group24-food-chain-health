@@ -18,6 +18,8 @@ def multinomial_combinations(df,fname):
         Output : dataframe that is written to the csv file and stored as well.
     """
     assert isinstance(df,pd.DataFrame)
+    assert isinstance(fname,str)
+
     calories = df['Calories'].tolist()
     probs = np.asarray(calories)
     dummy = probs
@@ -54,14 +56,18 @@ def multinomial_combinations(df,fname):
             price = df.loc[element,'Price']
             list_metric.append(met)
             list_price.append(float(price))
+        #Appending the Metric Column by calculating it for each dish.
+        #Similarly, finding the the price for the corresponding dishes from the final data generated.
         final_metric.append(round(sum(list_metric),5))
         final_price.append(sum(list_price))
         list_metric = []
         list_price = []
     #Sorting accoridng to the metric column
+    assert isinstance(data,pd.DataFrame) # Output Check
     data['Metric'] = pd.Series(final_metric)
     data['Price'] = pd.Series(final_price)
     data = data.sort_values('Metric')
     data = data.drop_duplicates(subset = 'Metric')
+
 
     return data

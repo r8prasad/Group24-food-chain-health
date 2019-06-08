@@ -7,10 +7,9 @@ import os
 plotly.tools.set_credentials_file(username='vajoshi', api_key='eZ0l3Qg71TAVdJ7DO86U')
 def healthy_maker():
     """
-    Following function plots the graph for the bets metric dishes of the 5 restaurants agaisnt their prices.
-    
-    The avergae price for having a full meal at each of the restaurants is calculated. The top 5 dishes in terms of health
-    metric are taken their average price is calculated.
+    Following function plots the graph for the average of the prices for the healthy and the unhealthy dishes for the entire menu.
+
+    The avergae price for having a full meal at each of the restaurants is calculated. The average price is plotted in a grouped bar chart.
     """
     loc = '../../data/Combinations'
     names = os.listdir(loc)
@@ -33,10 +32,9 @@ Healthy = healthy_maker()
 
 def unhealthy_maker():
     """
-    Following function plots the graph for the bets metric dishes of the 5 restaurants agaisnt their prices.
-    
-    The avergae price for having a full meal at each of the restaurants is calculated. The top 5 dishes in terms of health
-    metric are taken their average price is calculated.
+        Following function plots the graph for the average of the prices for the healthy and the unhealthy dishes for the entire menu.
+
+        The avergae price for having a full meal at each of the restaurants is calculated. The average price is plotted in a grouped bar chart.
     """
     loc = '../../data/Combinations'
     names = os.listdir(loc)
@@ -58,6 +56,9 @@ Unhealthy= unhealthy_maker()
 
 #Code for generating the plot of the average price of healthy and unhealthy restaurants on the same grouped bar graph.
 def Price_plots():
+    """
+    Commands for running the plotly Code.
+    """
     healthy = dict(sorted(Healthy.items(), key = lambda kv:(kv[1], kv[0])))
     unhealthy = dict(sorted(Unhealthy.items(), key = lambda kv:(kv[1], kv[0])))
     trace1 = go.Bar(
@@ -73,7 +74,7 @@ def Price_plots():
         marker = dict(color = 'red'),
         opacity = 0.6,
         name='Unhealthy Food'
-    ) 
+    )
 
     data = [trace1, trace2]
     #Changing the layout properties in plotly
