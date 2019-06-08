@@ -43,7 +43,7 @@ def threshold_on_metric(df, columns_filter, thresh_info):
 def main():
 	
 	# Initializations
-	data_folder = '../Final_CSV'
+	data_folder = '../../data/FinalData'
 	extra_str = ''
 	ext = '.csv'
 	columns_filter = ['Item', 'Carbs Metric', 'Cholesterol Metric', 'Protein Metric', 'Trans Fat', 'Saturated Fat Metric']
@@ -62,8 +62,9 @@ def main():
 	# restaurant_names = os.listdir(data_folder)
 	# restaurant_names = [name.split('.')[0] for name in restaurant_names]
 	assert len(restaurant_names) > 0, 'Need to have atleast one restaurant csv file!'
-	
-	fig, axs = plt.subplots(2, 2, figsize=(12, 6), sharey=True)
+
+
+	fig, axs = plt.subplots(2, 5, figsize=(12, 6), sharey=True)
 	fig.subplots_adjust(hspace = .5, wspace=.2)
 	axs = axs.flatten()
 	pie_colors = [colors['lime'], colors['lightsteelblue'], colors['crimson']]
