@@ -10,7 +10,7 @@ from Calorie_Multi import ulti
 
 def carbs_metric(df):
     """
-    Calculates the metric of each food item based on the research papers
+    Calculates the carbs metric of each food item based on the research papers
     """
     assert isinstance(df,pd.Series)
     carbs = 2000/300
@@ -20,7 +20,7 @@ def carbs_metric(df):
 
 def chol_metric(df):
     """
-    Calculates the metric of each food item based on the research papers
+    Calculates the Cholestrol metric of each food item based on the research papers
     """
     assert isinstance(df,pd.Series)
     chol = 2000/300
@@ -30,7 +30,7 @@ def chol_metric(df):
 
 def prot_metric(df):
     """
-    Calculates the metric of each food item based on the research papers
+    Calculates the Protein metric of each food item based on the research papers
     """
     assert isinstance(df,pd.Series)
     prot = 2000/50
@@ -40,7 +40,7 @@ def prot_metric(df):
 
 def fat_metric(df):
     """
-    Calculates the metric of each food item based on the research papers
+    Calculates the Fat metric of each food item based on the research papers
     """
     assert isinstance(df,pd.Series)
     fat = 2000/77
@@ -50,7 +50,7 @@ def fat_metric(df):
 
 def sodium_metric(df):
     """
-    Calculates the metric of each food item based on the research papers
+    Calculates the Sodium metric of each food item based on the research papers
     """
     assert isinstance(df,pd.Series)
     sod = 2000/2400
@@ -60,7 +60,7 @@ def sodium_metric(df):
 
 def SatFat_metric(df):
     """
-    Calculates the metric of each food item based on the research papers
+    Calculates the Saturated fat metric of each food item based on the research papers
     """
     assert isinstance(df,pd.Series)
     satfat = 2000/20
@@ -70,8 +70,9 @@ def SatFat_metric(df):
 
 def processing(fname):
     """
-    This function performs the different categorisation of the items on the Burger King's food menu,
-    into breakfast, lunch and dinner.
+    This function performs the different categorisation of the items food menu of all the Restaurants
+    Operations:
+                Calculate and append the corresponding nuttrient metric as a new column.
     """
     df = pd.read_csv(f"./Restaurants/{fname}.csv", encoding = 'iso-8859-1')
     df['Price'] = df['Price'].str.strip('$')

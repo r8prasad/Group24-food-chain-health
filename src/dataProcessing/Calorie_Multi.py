@@ -9,14 +9,19 @@ import numpy as np
 
 def multinomial_combinations(df,fname):
     """
-    This function returns the 5 best possible combinations from a particular restaurant which roughly
+    This function returns the 5 best possible combinations from a particular restaurant which
     satisfy the 2000 calories a day criterion
+
+    :param
+        Input: df -- > The dataframe of each of the restaurants, reading it from the CSV final_metric
+               fname --> The final filename that is generated that stores all the possible combinations.
+        Output : dataframe that is written to the csv file and stored as well.
     """
     assert isinstance(df,pd.DataFrame)
     calories = df['Calories'].tolist()
     probs = np.asarray(calories)
     dummy = probs
-    # This sections finds all the possible combinations for which the sum equals 2000   
+    # This sections finds all the possible combinations for which the sum equals 2000
     combination = np.where(dummy + dummy[:,None] + dummy[:,None,None]== 2000)
     final = np.flip(combination).T.tolist()
     df = df.reset_index()
@@ -33,7 +38,7 @@ def multinomial_combinations(df,fname):
     data = pd.DataFrame(list_item)
     data.columns = ['Item 1','Item 2','Item 3']
     df = df.set_index('Item')
-    
+
     #Finding the metric for each combination
     list_metric = []
     final_price = []
@@ -55,6 +60,6 @@ def multinomial_combinations(df,fname):
     data['Price'] = pd.Series(final_price)
     data = data.sort_values('Metric')
     data = data.drop_duplicates(subset = 'Metric')
-    
+
     data.to_csv(f"metric_merged\{fname}_Merged.csv", encoding = 'iso-8859-1', index=False)
     return data
