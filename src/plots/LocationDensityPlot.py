@@ -1,3 +1,10 @@
+"""
+This file plots the location density of unhealthy restaurants against a disease's rate
+
+@author: Ritika Prasad
+
+"""
+
 import pandas as pd
 import os
 from matplotlib.pylab import subplots
@@ -13,9 +20,6 @@ diseaseRate = {
 				"Heart Disease" : {'AL': 274.5, 'AZ': 189.8, 'CA': 203.0, 'CO': 164.8, 'FL': 200.0, 'GA': 236.0,'IL': 220.7, 'KY': 257.3, 'MA': 179.0, 'MN': 145.4, 'MT': 172.2, 'NY': 248.3, 'OK': 272.4, 'TX': 220.4, 'WA': 180.5}
 			} 
 
-def remove_punctuations(restaurants_list):
-	regExp = r'[^A-Za-z.]+'
-	return [re.sub(regExp, '', restaurant) for restaurant in restaurants_list]
 def locs(restaurants, goodOrBad, disease):
 	"""
 		correlate number of locations with diseases
@@ -27,7 +31,8 @@ def locs(restaurants, goodOrBad, disease):
 	assert(isinstance(disease, str))
 
 	goodBadDict = dict(zip(restaurants, goodOrBad))
-	df = pd.read_csv('LocationData.csv', encoding = 'iso-8859-1')
+	df = pd.read_csv('../../data/LocationData/LocationData.csv', encoding = 'iso-8859-1')
+
 	df1 = df[df.Restaurant.isin(restaurants)]
 	df1['goodOrBad'] = df1['Restaurant'].map(goodBadDict)
 	df2 = df1.groupby(['State', 'goodOrBad']).sum()
@@ -71,40 +76,15 @@ def locs(restaurants, goodOrBad, disease):
 	
 	fig.savefig(f'figure_{disease}.png', dpi=300)
 
-all_restaurants = os.listdir('../../data/FinalData')
 
-restaurants = remove_punctuations(all_restaurants)
-restaurant_metrics = []
-
-for restaurant in restaurants:
-	df = pd.read_csv('../../data/FinalData/'+ restaurant, encoding = 'iso-8859-1')
-	transFat = df["Trans Fat"].mean()
-	sugar = df["Sugar"].mean()
-	saturatedFat = df["Saturated Fat Metric"].mean()
-	cholesterol = df["Cholesterol Metric"].mean()
-	fat = df["Fat Metric"].mean()
-	carbs = df["Carbs Metric"].mean()
-	
-	metric_dict = {}
-	metric_dict['Name'] = restaurant.split('.')[0]
-	metric_dict['Diabetes Metric'] = sugar  + saturatedFat + transFat
-	metric_dict['Heart Disease Metric'] = cholesterol + saturatedFat + transFat
-	metric_dict['Obesity Metric'] = saturatedFat + transFat + carbs
-
-	restaurant_metrics.append(metric_dict)
-
-df = pd.DataFrame(restaurant_metrics)
-df.set_index('Name', inplace=True)
-
-#plot line graph in sorting order
-df.sort_values(by=['Diabetes Metric'], ascending=False, inplace=True)
-
-restaurants = ['Mcdonalds', 'PizzaHut', 'Dominos', 'BurgerKing', 'ChickFilA', 'KFC']
+restaurants = ['McDonald\'s', 'Pizza Hut', 'Domino\'s Pizza', 'Burger King', 'Chick-Fil-A', 'KFC']
 goodOrBad = [-1,-1,-1,-1,-1,-1,-1]
+
+#diabetes plot
 locs(restaurants, goodOrBad, "Diabetes")
 
-df.sort_values(by=['Heart Disease Metric'], ascending=False, inplace=True)
+#heart disease plot
 locs(restaurants, goodOrBad, "Heart Disease")
 
-df.sort_values(by=['Obesity Metric'], ascending=False, inplace=True)
+#obesity disease plot
 locs(restaurants, goodOrBad, "Obesity")

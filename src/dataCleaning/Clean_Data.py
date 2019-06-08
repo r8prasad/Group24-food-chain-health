@@ -15,19 +15,19 @@ def clean_extracted_data(df1, fname, thresholdSize, thresholdProtein):
 
 	#drop rows containing drinks
 	drinks = " oz| milk|cappuccino|frappe|macchiato|coffee| latte|caffe|lemonade| juice"
-	df2 = df1[~df1.Item.str.contains(drinks, flags=re.IGNORECASE, regex=True)]
+	df2 = df1[~df1.index.str.contains(drinks, flags=re.IGNORECASE, regex=True)]
 
 	#drop row with smaller serving size-condiments
-	df3 = df2[df2["Serving Size"].apply(extract_number, args=[thresholdSize]) >= thresholdSize]
+	df3 = df2[df2["Serving Size"] >= thresholdSize]
 
 	#drop row with smaller protein size -> Drinks and sauces barely have proteins (except shakes)
-	df4 = df3[df3["Protein"].apply(extract_number, args=[thresholdSize]) > thresholdProtein]
+	df4 = df3[df3["Protein"] > thresholdProtein]
 
-	df4.to_csv(f"../../data/CleanedNutritionData/{fname}_Clean.csv", encoding = 'iso-8859-1', index=False)
+	df4.to_csv(f"../../data/CleanedNutritionData/{fname}_Clean.csv", encoding = 'iso-8859-1', index=True)
 
 def str_to_int(df):
- 	"""
- 	Takes the dataframe as input for the values of the different food stuffs and converts them to float
+	"""
+	Takes the dataframe as input for the values of the different food stuffs and converts them to float
 
 	Removes the g and mg at the end.
 	"""
@@ -52,4 +52,4 @@ def data_cleaning(fname, thresholdSize, thresholdProtein):
 	processedFile = fname.split("/")[-1]
 	clean_extracted_data(df, processedFile, thresholdSize, thresholdProtein)
 
-data_cleaning(fname="../../data/RawNutritionData/PizzaHut_NutritionData", thresholdSize = 70, thresholdProtein = 2)
+data_cleaning(fname="../../data/RawNutritionData/Arbys_NutritionData", thresholdSize = 70, thresholdProtein = 2)

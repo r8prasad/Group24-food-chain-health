@@ -63,9 +63,6 @@ def __extract_restaurant_info(restaurantDiv, state):
 	location = restaurantDiv.find('span', attrs={'class':'section-result-location'})
 	location_dict['Location'] = location.text.strip()
 
-	isOpen = restaurantDiv.find('div', attrs={'class':'section-result-closed', 'style':'display:none'})
-	location_dict['isOpen'] = isOpen != None
-
 	return location_dict
 
 def __process_extracted_data(results, restaurant, state, extractedDataFile, namesAllowed):
@@ -98,12 +95,9 @@ def __process_extracted_data(results, restaurant, state, extractedDataFile, name
 	assert(isinstance(namesAllowed, list))
 
 	df = pd.DataFrame(results)
-	
+
 	#remove restaurants with other name than the restaurant's name
 	df = df[df.Name.isin(namesAllowed)]
-
-	#remove restaurants that are permanently closed
-	df = df[df.isOpen != False]
 
 	#check if the location is within the state
 	#get cities name in a list
@@ -142,7 +136,7 @@ def __process_extracted_data(results, restaurant, state, extractedDataFile, name
 
 		if(not isLocationValid):
 			df = df[df.Location != location]
-
+	
 	#remove duplicate location using dataframes
 	df.drop_duplicates(subset=None, keep='last', inplace=True)
 

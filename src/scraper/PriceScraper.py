@@ -1,3 +1,13 @@
+"""
+This file does the scraping of pricing of a restaurant's menu items
+in a state on https://www.menuwithprice.com/menu-and-price/ and stores 
+it in a csv file
+
+@author: Ritika Prasad
+
+"""
+
+
 from bs4 import BeautifulSoup
 import requests
 import csv
