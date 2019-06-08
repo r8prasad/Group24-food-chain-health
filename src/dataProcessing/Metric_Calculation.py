@@ -88,12 +88,12 @@ def processing(fname):
     mult_cal = ulti(df,fname)
     return mult_cal
 
-#import os
-#loc = './Restaurants'
-#names = os.listdir(loc)
-#names = [each.split('.')[0] for each in names]
-#assert len(names) > 0
-#
-#for each in names:
-#    x = processing(each)
-#    x.to_csv(f"{each}.csv", encoding = 'iso-8859-1', index=False)
+import os
+loc = './Restaurants' #Update the appropriate location
+names = os.listdir(loc)
+names = [each.split('.')[0] for each in names] #If the file name has no '.', then ignore comment out this line
+assert len(names) > 0
+
+for each in names:
+    final_data = processing(each)
+    final_data.to_csv(f"{each}.csv", encoding = 'iso-8859-1', index=False) #The intital f-string is the location of the final cleaned up files with metric
