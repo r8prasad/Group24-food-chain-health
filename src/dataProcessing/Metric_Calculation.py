@@ -73,19 +73,24 @@ def processing(fname):
     This function performs the different categorisation of the items food menu of all the Restaurants
     Operations:
                 Calculate and append the corresponding nuttrient metric as a new column.
+                Remove the '$' sign from the price columns
+    :param Input:
+                    fname --> The name of the restaurant that is supposed to be processed (This is the name of the final file too)
+           Output:
+                    mult_cal --> A data frame which contains all the possible combinations satisfying the 2000 calories criterion.
     """
     df = pd.read_csv(f"./Restaurants/{fname}.csv", encoding = 'iso-8859-1')
     df['Price'] = df['Price'].str.strip('$')
 #    data_price = pd.read_csv(f"NutritionDataWithPrice\{fname}.csv", encoding = 'iso-8859-1')
 #    mult_cal = pd.DataFrame()
 #    df = data_cleaning(data)
-    df['Carbs Metric'] = df.apply(lambda x: carbs_metric(x) , axis = 1)
-    df['Cholesterol Metric'] = df.apply(lambda x: chol_metric(x) , axis = 1)
-    df['Protein Metric'] = df.apply(lambda x: prot_metric(x) , axis = 1)
-    df['Fat Metric'] = df.apply(lambda x: fat_metric(x) , axis = 1)
-    df['Sodium Metric'] = df.apply(lambda x: sodium_metric(x) , axis = 1)
-    df['Saturated Fat Metric'] = df.apply(lambda x: SatFat_metric(x) , axis = 1)
-    mult_cal = ulti(df,fname)
+    df['Carbs Metric'] = df.apply(lambda x: carbs_metric(x) , axis = 1) # Calculates the Carbs metric for each food ite, basically operating on each column
+    df['Cholesterol Metric'] = df.apply(lambda x: chol_metric(x) , axis = 1)# Calculates the Cholesterol metric for each food ite, basically operating on each column
+    df['Protein Metric'] = df.apply(lambda x: prot_metric(x) , axis = 1)# Calculates the protein metric for each food ite, basically operating on each column
+    df['Fat Metric'] = df.apply(lambda x: fat_metric(x) , axis = 1)# Calculates the Fat metric for each food ite, basically operating on each column
+    df['Sodium Metric'] = df.apply(lambda x: sodium_metric(x) , axis = 1)# Calculates the Sodium metric for each food ite, basically operating on each column
+    df['Saturated Fat Metric'] = df.apply(lambda x: SatFat_metric(x) , axis = 1)# Calculates the Saturated metric for each food ite, basically operating on each column
+    mult_cal = multinomial_combinations(df,fname)
     return mult_cal
 
 import os
