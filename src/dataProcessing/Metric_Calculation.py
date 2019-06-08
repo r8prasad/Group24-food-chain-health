@@ -5,8 +5,7 @@ Created on Thu May 23 16:48:49 2019
 @author: Varad
 """
 import pandas as pd
-from Calorie_Multi import ulti
-#from Data_Cleaning import data_cleaning
+from Calorie_Multi import multinomial_combinations
 
 def carbs_metric(df):
     """
@@ -79,7 +78,7 @@ def processing(fname):
            Output:
                     mult_cal --> A data frame which contains all the possible combinations satisfying the 2000 calories criterion.
     """
-    df = pd.read_csv(f"./Restaurants/{fname}.csv", encoding = 'iso-8859-1')
+    df = pd.read_csv(f"../../data/NutritionDataWithPrice/{fname}.csv", encoding = 'iso-8859-1')
     df['Price'] = df['Price'].str.strip('$')
 #    data_price = pd.read_csv(f"NutritionDataWithPrice\{fname}.csv", encoding = 'iso-8859-1')
 #    mult_cal = pd.DataFrame()
@@ -90,15 +89,18 @@ def processing(fname):
     df['Fat Metric'] = df.apply(lambda x: fat_metric(x) , axis = 1)# Calculates the Fat metric for each food ite, basically operating on each column
     df['Sodium Metric'] = df.apply(lambda x: sodium_metric(x) , axis = 1)# Calculates the Sodium metric for each food ite, basically operating on each column
     df['Saturated Fat Metric'] = df.apply(lambda x: SatFat_metric(x) , axis = 1)# Calculates the Saturated metric for each food ite, basically operating on each column
+    df.to_csv(f"../../data/FinalData/{each}.csv", encoding = 'iso-8859-1', index=False)
+    
+    #Choosing the combinations of the 2000 calorie combination
     mult_cal = multinomial_combinations(df,fname)
     return mult_cal
 
 import os
-loc = './Restaurants' #Update the appropriate location
+loc = '../../data/NutritionDataWithPrice' #Update the appropriate location
 names = os.listdir(loc)
 names = [each.split('.')[0] for each in names] #If the file name has no '.', then ignore comment out this line
 assert len(names) > 0
 
 for each in names:
     final_data = processing(each)
-    final_data.to_csv(f"{each}.csv", encoding = 'iso-8859-1', index=False) #The intital f-string is the location of the final cleaned up files with metric
+    final_data.to_csv(f"../../data/Combinations/{each}.csv", encoding = 'iso-8859-1', index=False) #The intital f-string is the location of the final cleaned up files with metric

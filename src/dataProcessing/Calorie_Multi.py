@@ -36,9 +36,12 @@ def multinomial_combinations(df,fname):
         item = []
     #Storing data as a Pandas object to make computations easier later on.
     data = pd.DataFrame(list_item)
-    data.columns = ['Item 1','Item 2','Item 3']
+    #Some restaurants throw an exception since it is not at all possible. They will return an empty dataframe.
+    try:
+        data.columns = ['Item 1','Item 2','Item 3']
+    except:
+        return data
     df = df.set_index('Item')
-
     #Finding the metric for each combination
     list_metric = []
     final_price = []
@@ -61,5 +64,4 @@ def multinomial_combinations(df,fname):
     data = data.sort_values('Metric')
     data = data.drop_duplicates(subset = 'Metric')
 
-    data.to_csv(f"metric_merged\{fname}_Merged.csv", encoding = 'iso-8859-1', index=False)
     return data
