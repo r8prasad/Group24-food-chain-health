@@ -28,8 +28,6 @@ def map_list_to_list(s1_list,s2_list):
 		dict_map[s1] = [s2, s2_ratio]
 
 	df_map = pd.Series(dict_map, index=dict_map.keys())
-	# df_map = pd.Series.to_frame(df_map)
-	# df_map = pd.DataFrame.from_dict(dict_map, orient='columns', columns = ['PriceData', 'NutritionData'])
 	return df_map
 
 def map_str_to_list(s1,s2_list):
@@ -58,7 +56,6 @@ def add_price_column(df_Nd, df_map, df_Pd):
 
 	# Add "Price" column to the Nutrition Dataframe
 	df_Nd['Price'] = 0.0
-	# df_Nd['Ratio_match'] = 0.0
 
 	for i in range(0, len(df_map.index)):#len(df_map.index)):
 		# Extracting the item name from the ith row of df_map
@@ -72,7 +69,6 @@ def add_price_column(df_Nd, df_map, df_Pd):
 		item_price = df_Pd['Price'][index_Pd]
 		# Writing Price in Nutrition Data
 		df_Nd['Price'][index_Nd] = item_price
-		# df_Nd['Ratio_match'][index_Nd] = item_ratio 
 	return df_Nd
 
 def main():
@@ -83,19 +79,19 @@ def main():
 	3. Save the new dataframe with price column as a csv in a new folder
 	'''
 	Nd = 'NutritionData'
-	Nd_folder = 'Merged_CSV'
-	extra_str = '_Clean_Merged'
+	Nd_folder = '../../data/CleanedNutritionData'
+	extra_str = '_Clean'
 	Pd = 'PriceData'
-	Pd_folder = 'PriceData'
+	Pd_folder = '../../data/RawPriceData'
 	ext = '.csv'
-	folder = 'NutritionDataWithPrice'
+	folder = '../../data/NutritionDataWithPrice'
 	restaurant_names = os.listdir(Nd_folder)
 	restaurant_names = [name.split('_')[0] for name in restaurant_names]
 	assert len(restaurant_names) > 0, 'Need to have atleast one restaurant csv file!'
 
 	for i in range(0,len(restaurant_names)):
 		restaurant = restaurant_names[i]
-		print('Processing info from restaurant - ', restaurant)
+
 		# Reading NutritionData of a restaurant
 		df_Nd = pd.read_csv(Nd_folder+'/'+restaurant+'_'+Nd+extra_str+ext, encoding = 'iso-8859-1') #reading the csv file and storing as DataFrame
 		# Reading PriceData of a restaurant
@@ -107,7 +103,9 @@ def main():
 		df_map = map_list_to_list(Item_Nd, Item_Pd)
 		df_Nd = add_price_column(df_Nd, df_map, df_Pd)
 		# # Writing dataframe to csv file
-		df_Nd.to_csv(folder '/' + restaurant +ext, index=False)
+		if not os.path.exists(folder):
+			os.makedirs(folder)
+		df_Nd.to_csv(folder +'/' + restaurant +ext, index=False)
 
 if __name__ == '__main__':
 	main()
