@@ -1,1 +1,1 @@
-# project24-food-chain-health
+The src folder contains all the python files. the data folder contains all the 

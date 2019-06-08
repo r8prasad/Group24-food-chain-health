@@ -1,0 +1,226 @@
+Restaurant,State,Number of Outlets
+Subway,AL,446
+Subway,NY,1020
+Subway,CA,2522
+Subway,TX,2154
+Subway,CO,426
+Subway,MA,369
+Subway,FL,1450
+Subway,AZ,444
+Subway,OK,385
+Subway,MN,464
+Subway,KY,398
+Subway,WA,572
+Subway,IL,1119
+Subway,MT,83
+Subway,GA,825
+Wendy's,CA,271
+Wendy's,AL,99
+Wendy's,NY,214
+Wendy's,TX,402
+Wendy's,CO,129
+Wendy's,MA,97
+Wendy's,FL,512
+Wendy's,AZ,98
+Wendy's,OK,43
+Wendy's,MN,59
+Wendy's,KY,143
+Wendy's,WA,81
+Wendy's,IL,193
+Wendy's,MT,14
+Wendy's,GA,284
+Mcdonald's,AL,245
+Mcdonald's,NY,617
+Mcdonald's,CA,1284
+Mcdonald's,TX,1190
+Mcdonald's,CO,208
+Mcdonald's,MA,234
+Mcdonald's,FL,907
+Mcdonald's,AZ,288
+Mcdonald's,OK,204
+Mcdonald's,MN,226
+Mcdonald's,KY,251
+Mcdonald's,WA,263
+Mcdonald's,IL,663
+Mcdonald's,MT,48
+Mcdonald's,GA,454
+Pizza Hut,AL,152
+Pizza Hut,NY,204
+Pizza Hut,CA,682
+Pizza Hut,TX,834
+Pizza Hut,CO,144
+Pizza Hut,MA,51
+Pizza Hut,FL,502
+Pizza Hut,AZ,171
+Pizza Hut,OK,136
+Pizza Hut,MN,114
+Pizza Hut,KY,135
+Pizza Hut,WA,132
+Pizza Hut,IL,265
+Pizza Hut,MT,37
+Pizza Hut,GA,295
+Burger King,AL,168
+Burger King,CA,573
+Burger King,NY,344
+Burger King,TX,548
+Burger King,CO,122
+Burger King,MA,121
+Burger King,FL,570
+Burger King,AZ,175
+Burger King,OK,57
+Burger King,MN,124
+Burger King,KY,100
+Burger King,WA,121
+Burger King,IL,303
+Burger King,MT,24
+Burger King,GA,267
+Dunkin' Donuts,CA,102
+Dunkin' Donuts,AL,37
+Dunkin' Donuts,NY,1497
+Dunkin' Donuts,TX,161
+Dunkin' Donuts,CO,45
+Dunkin' Donuts,MA,1166
+Dunkin' Donuts,FL,982
+Dunkin' Donuts,AZ,92
+Dunkin' Donuts,OK,11
+Dunkin' Donuts,MN,18
+Dunkin' Donuts,KY,34
+Dunkin' Donuts,WA,0
+Dunkin' Donuts,IL,685
+Dunkin' Donuts,MT,0
+Dunkin' Donuts,GA,215
+Panera Bread,AL,27
+Panera Bread,CA,190
+Panera Bread,TX,107
+Panera Bread,NY,114
+Panera Bread,CO,38
+Panera Bread,MA,65
+Panera Bread,FL,189
+Panera Bread,AZ,35
+Panera Bread,OK,17
+Panera Bread,MN,36
+Panera Bread,KY,32
+Panera Bread,WA,32
+Panera Bread,IL,122
+Panera Bread,MT,1
+Panera Bread,GA,63
+KFC,CA,461
+KFC,AL,107
+KFC,TX,287
+KFC,NY,157
+KFC,CO,73
+KFC,MA,45
+KFC,FL,266
+KFC,AZ,71
+KFC,OK,73
+KFC,MN,46
+KFC,KY,101
+KFC,WA,88
+KFC,IL,166
+KFC,MT,12
+KFC,GA,158
+Whataburger,AL,16
+Whataburger,TX,676
+Whataburger,CA,0
+Whataburger,NY,0
+Whataburger,CO,0
+Whataburger,MA,0
+Whataburger,FL,38
+Whataburger,AZ,25
+Whataburger,OK,32
+Whataburger,MN,0
+Whataburger,KY,0
+Whataburger,WA,0
+Whataburger,IL,1
+Whataburger,MT,0
+Whataburger,GA,4
+Carl's Jr,AL,0
+Carl's Jr,TX,61
+Carl's Jr,NY,2
+Carl's Jr,CA,823
+Carl's Jr,CO,55
+Carl's Jr,MA,0
+Carl's Jr,FL,0
+Carl's Jr,AZ,82
+Carl's Jr,OK,51
+Carl's Jr,MN,0
+Carl's Jr,KY,0
+Carl's Jr,WA,20
+Carl's Jr,IL,7
+Carl's Jr,MT,0
+Carl's Jr,GA,0
+Jack In The Box,AL,0
+Jack In The Box,TX,601
+Jack In The Box,NY,0
+Jack In The Box,CA,940
+Jack In The Box,CO,16
+Jack In The Box,MA,0
+Jack In The Box,FL,0
+Jack In The Box,AZ,171
+Jack In The Box,OK,17
+Jack In The Box,MN,0
+Jack In The Box,KY,0
+Jack In The Box,WA,150
+Jack In The Box,IL,13
+Jack In The Box,MT,0
+Jack In The Box,GA,0
+Arby's,CA,86
+Arby's,AL,97
+Arby's,TX,162
+Arby's,NY,74
+Arby's,CO,76
+Arby's,MA,3
+Arby's,FL,162
+Arby's,AZ,64
+Arby's,OK,93
+Arby's,MN,78
+Arby's,KY,114
+Arby's,WA,59
+Arby's,IL,129
+Arby's,MT,14
+Arby's,GA,155
+Chick-Fil-A,AL,82
+Chick-Fil-A,NY,19
+Chick-Fil-A,TX,406
+Chick-Fil-A,CA,120
+Chick-Fil-A,CO,54
+Chick-Fil-A,MA,17
+Chick-Fil-A,FL,206
+Chick-Fil-A,AZ,41
+Chick-Fil-A,OK,46
+Chick-Fil-A,MN,19
+Chick-Fil-A,KY,39
+Chick-Fil-A,WA,11
+Chick-Fil-A,IL,42
+Chick-Fil-A,MT,1
+Chick-Fil-A,GA,249
+Dominos,AL,156
+Dominos,CA,785
+Dominos,NY,318
+Dominos,TX,677
+Dominos,CO,155
+Dominos,MA,192
+Dominos,FL,600
+Dominos,AZ,175
+Dominos,OK,77
+Dominos,MN,235
+Dominos,KY,131
+Dominos,WA,165
+Dominos,IL,265
+Dominos,MT,19
+Dominos,GA,301
+Panda Express,AL,24
+Panda Express,CA,563
+Panda Express,NY,14
+Panda Express,TX,264
+Panda Express,CO,46
+Panda Express,MA,6
+Panda Express,FL,92
+Panda Express,AZ,109
+Panda Express,OK,26
+Panda Express,MN,21
+Panda Express,KY,13
+Panda Express,WA,65
+Panda Express,IL,111
+Panda Express,MT,7
+Panda Express,GA,62
